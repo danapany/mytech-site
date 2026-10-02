@@ -1,0 +1,185 @@
+{
+ "week": "2026-09-21",
+ "rising": [
+  {
+   "id": "local-llm-runtime",
+   "momentum": 0.788,
+   "acceleration": 0.19,
+   "lead_source": "models",
+   "alert": false
+  },
+  {
+   "id": "vla-models",
+   "momentum": 0.758,
+   "acceleration": 0.834,
+   "lead_source": null,
+   "alert": false
+  },
+  {
+   "id": "rl-post-training",
+   "momentum": 0.576,
+   "acceleration": 0.161,
+   "lead_source": "models",
+   "alert": true
+  },
+  {
+   "id": "agentic-commerce",
+   "momentum": 0.523,
+   "acceleration": 0.322,
+   "lead_source": "search",
+   "alert": false
+  },
+  {
+   "id": "ai-coding-agents",
+   "momentum": 0.475,
+   "acceleration": 0.256,
+   "lead_source": "adoption",
+   "alert": false
+  },
+  {
+   "id": "ai-smart-glasses",
+   "momentum": 0.439,
+   "acceleration": 0.635,
+   "lead_source": "community",
+   "alert": false
+  },
+  {
+   "id": "agentic-ai",
+   "momentum": 0.425,
+   "acceleration": 0.031,
+   "lead_source": "search",
+   "alert": false
+  },
+  {
+   "id": "image-generation",
+   "momentum": 0.424,
+   "acceleration": -0.099,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "vibe-coding",
+   "momentum": 0.408,
+   "acceleration": -0.112,
+   "lead_source": null,
+   "alert": false
+  },
+  {
+   "id": "ai-pc",
+   "momentum": 0.37,
+   "acceleration": 0.357,
+   "lead_source": null,
+   "alert": false
+  },
+  {
+   "id": "durable-execution",
+   "momentum": 0.356,
+   "acceleration": 0.137,
+   "lead_source": null,
+   "alert": false
+  },
+  {
+   "id": "agent-skills",
+   "momentum": 0.343,
+   "acceleration": -0.143,
+   "lead_source": null,
+   "alert": false
+  },
+  {
+   "id": "computer-use-agents",
+   "momentum": 0.333,
+   "acceleration": -0.835,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "agent-memory",
+   "momentum": 0.295,
+   "acceleration": 0.536,
+   "lead_source": "models",
+   "alert": false
+  },
+  {
+   "id": "ai-video-generation",
+   "momentum": 0.285,
+   "acceleration": 0.476,
+   "lead_source": "research",
+   "alert": false
+  }
+ ],
+ "cooling": [
+  {
+   "id": "on-device-ai",
+   "momentum": -0.639
+  },
+  {
+   "id": "reasoning-models",
+   "momentum": -0.592
+  },
+  {
+   "id": "quantum-computing",
+   "momentum": -0.586
+  },
+  {
+   "id": "robotaxi",
+   "momentum": -0.504
+  },
+  {
+   "id": "harness-engineering",
+   "momentum": -0.364
+  },
+  {
+   "id": "humanoid-robots",
+   "momentum": -0.347
+  },
+  {
+   "id": "context-engineering",
+   "momentum": -0.32
+  },
+  {
+   "id": "ag-ui",
+   "momentum": -0.206
+  },
+  {
+   "id": "hbm",
+   "momentum": -0.205
+  },
+  {
+   "id": "gpu-accelerators",
+   "momentum": -0.195
+  },
+  {
+   "id": "multi-agent-frameworks",
+   "momentum": -0.157
+  },
+  {
+   "id": "ai-scientist",
+   "momentum": -0.157
+  },
+  {
+   "id": "llm-inference-serving",
+   "momentum": -0.136
+  },
+  {
+   "id": "js-runtimes-toolchain",
+   "momentum": -0.135
+  },
+  {
+   "id": "open-weight-models",
+   "momentum": -0.125
+  }
+ ],
+ "movers": [
+  {
+   "id": "vla-models",
+   "from": "assess",
+   "to": "trial"
+  },
+  {
+   "id": "rl-post-training",
+   "from": "adopt",
+   "to": "trial"
+  }
+ ],
+ "candidates": []
+}

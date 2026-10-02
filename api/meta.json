@@ -1,0 +1,317 @@
+{
+ "generated_at": "2026-09-28T10:53:22Z",
+ "week": "2026-09-21",
+ "weeks": [
+  "2026-03-23",
+  "2026-03-30",
+  "2026-04-06",
+  "2026-04-13",
+  "2026-04-20",
+  "2026-04-27",
+  "2026-05-04",
+  "2026-05-11",
+  "2026-05-18",
+  "2026-05-25",
+  "2026-06-01",
+  "2026-06-08",
+  "2026-06-15",
+  "2026-06-22",
+  "2026-06-29",
+  "2026-07-06",
+  "2026-07-13",
+  "2026-07-20",
+  "2026-07-27",
+  "2026-08-03",
+  "2026-08-10",
+  "2026-08-17",
+  "2026-08-24",
+  "2026-08-31",
+  "2026-09-07",
+  "2026-09-14",
+  "2026-09-21"
+ ],
+ "categories": [
+  {
+   "id": "llm",
+   "name": "LLM & Models",
+   "name_ko": "LLM·모델",
+   "quadrant": 0,
+   "color": "#2a6fdb"
+  },
+  {
+   "id": "genmedia",
+   "name": "Generative Media",
+   "name_ko": "생성형 미디어",
+   "quadrant": 0,
+   "color": "#7c4dff"
+  },
+  {
+   "id": "agents",
+   "name": "Agents & AI Apps",
+   "name_ko": "에이전트·AI 앱",
+   "quadrant": 1,
+   "color": "#0f9d58"
+  },
+  {
+   "id": "devtools",
+   "name": "Dev Tools & Practices",
+   "name_ko": "개발도구·기법",
+   "quadrant": 1,
+   "color": "#00897b"
+  },
+  {
+   "id": "security",
+   "name": "AI Safety & Security",
+   "name_ko": "AI 안전·보안",
+   "quadrant": 1,
+   "color": "#c62828"
+  },
+  {
+   "id": "robotics",
+   "name": "Robotics & Physical AI",
+   "name_ko": "로봇·피지컬 AI",
+   "quadrant": 2,
+   "color": "#ef6c00"
+  },
+  {
+   "id": "devices",
+   "name": "Devices & Mobility",
+   "name_ko": "디바이스·모빌리티",
+   "quadrant": 2,
+   "color": "#f4a100"
+  },
+  {
+   "id": "infra",
+   "name": "AI Infra & Data",
+   "name_ko": "AI 인프라·데이터",
+   "quadrant": 3,
+   "color": "#5d6b7a"
+  },
+  {
+   "id": "deeptech",
+   "name": "Deep Tech",
+   "name_ko": "딥테크",
+   "quadrant": 3,
+   "color": "#8d6e63"
+  }
+ ],
+ "quadrants": [
+  "AI 모델·생성형",
+  "에이전트·개발도구",
+  "로봇·피지컬AI·디바이스",
+  "인프라·딥테크"
+ ],
+ "rings": [
+  "adopt",
+  "trial",
+  "assess",
+  "hold"
+ ],
+ "hype_stages": [
+  "trigger",
+  "peak",
+  "trough",
+  "slope",
+  "plateau"
+ ],
+ "groups": {
+  "code": {
+   "name_ko": "코드(GitHub)",
+   "weight": 0.25,
+   "lead_order": 2
+  },
+  "models": {
+   "name_ko": "모델(HF)",
+   "weight": 0.15,
+   "lead_order": 2
+  },
+  "research": {
+   "name_ko": "논문",
+   "weight": 0.15,
+   "lead_order": 1
+  },
+  "community": {
+   "name_ko": "개발자 커뮤니티",
+   "weight": 0.15,
+   "lead_order": 3
+  },
+  "search": {
+   "name_ko": "대중 검색",
+   "weight": 0.15,
+   "lead_order": 5
+  },
+  "media": {
+   "name_ko": "미디어·영상",
+   "weight": 0.1,
+   "lead_order": 4
+  },
+  "adoption": {
+   "name_ko": "채용·채택",
+   "weight": 0.05,
+   "lead_order": 6
+  }
+ },
+ "sources": [
+  {
+   "source": "arxiv",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 0,
+   "message": "0 papers from 6/6 categories"
+  },
+  {
+   "source": "arxiv_query",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 385,
+   "message": "34 techs x 27 week(s); 533 failed queries"
+  },
+  {
+   "source": "funding_rss",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 64,
+   "metrics": 0,
+   "message": "techcrunch_venture=20 platum=10 startuprecipe=4 venturesquare=30"
+  },
+  {
+   "source": "github_repos",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 17,
+   "message": "17/167 repos; no GITHUB_TOKEN: rotating chunk 4/4; backfill needs GITHUB_TOKEN"
+  },
+  {
+   "source": "github_trending",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 9,
+   "metrics": 0,
+   "message": "9 trending repos via github.com/trending"
+  },
+  {
+   "source": "hf_models",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 150,
+   "metrics": 0,
+   "message": "100 models, 50 spaces"
+  },
+  {
+   "source": "hf_papers",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 1246,
+   "metrics": 0,
+   "message": "1246 papers over 60 day(s)"
+  },
+  {
+   "source": "hn",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 23973,
+   "metrics": 0,
+   "message": "23973 stories"
+  },
+  {
+   "source": "hn_query",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 3551,
+   "message": "67 techs x 53 week(s)"
+  },
+  {
+   "source": "jobs_adzuna",
+   "status": "skipped",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 0,
+   "message": "missing env ADZUNA_APP_ID,ADZUNA_APP_KEY"
+  },
+  {
+   "source": "jobs_hn",
+   "status": "ok",
+   "ts": "2026-09-28T06:54:33Z",
+   "items": 0,
+   "metrics": 804,
+   "message": "Ask HN: Who is hiring? (September 2026): 256 postings; Ask HN: Who is hiring? (August 2026): 233 postings; Ask HN: Who is hiring? (July 2026): 260 postings; Ask HN: Who is hiring? (June 2026): 317 postings; Ask HN: Who is hiring? (May 2026): 322 postings; Ask HN: Who is hiring? (April 2026): 333 postings; Ask HN: Who is hiring? (March 2026): 321 postings; Ask HN: Who is hiring? (February 2026): 412 postings; Ask HN: Who is hiring? (January 2026): 257 postings; Ask HN: Who is hiring? (December 20"
+  },
+  {
+   "source": "jobs_remotive",
+   "status": "ok",
+   "ts": "2026-09-28T06:54:33Z",
+   "items": 0,
+   "metrics": 67,
+   "message": "17 jobs scanned"
+  },
+  {
+   "source": "jobs_saramin",
+   "status": "skipped",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 0,
+   "message": "missing env SARAMIN_ACCESS_KEY"
+  },
+  {
+   "source": "naver",
+   "status": "skipped",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 0,
+   "message": "missing env NAVER_CLIENT_ID,NAVER_CLIENT_SECRET"
+  },
+  {
+   "source": "producthunt",
+   "status": "skipped",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 0,
+   "message": "missing env PRODUCTHUNT_TOKEN"
+  },
+  {
+   "source": "rss",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 1108,
+   "metrics": 0,
+   "message": "geeknews=50 pytorchkr=30 yozm=30 irobotnews=50 techcrunch_ai=20 theverge_ai=10 ieee_robotics=30 mit_tr=10 hf_blog=868 github_blog=10"
+  },
+  {
+   "source": "wikipedia",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 0,
+   "metrics": 18032,
+   "message": "54 techs, 2025-09-28..2026-09-27"
+  },
+  {
+   "source": "yc",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 718,
+   "metrics": 0,
+   "message": "718 companies from fall-2026, summer-2026, spring-2026, winter-2026"
+  },
+  {
+   "source": "youtube",
+   "status": "ok",
+   "ts": "2026-09-28T06:41:05Z",
+   "items": 60,
+   "metrics": 0,
+   "message": "60 videos from 4/15 channels; failed: 안될공학,안될과학,노마드 코더,코딩애플,개발바닥,우아한테크,Toss Tech,테디노트,빵형의 개발도상국,슈카월드,삼프로TV"
+  }
+ ],
+ "totals": {
+  "items": 27289,
+  "technologies": 67,
+  "candidates_pending": 0
+ },
+ "llm": {
+  "month_cost_usd": 0.0,
+  "budget_usd": 8.0
+ }
+}

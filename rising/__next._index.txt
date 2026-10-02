@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[22016,["/mytech-site/_next/static/chunks/0vnokpofwast_.js","/mytech-site/_next/static/chunks/27_-ktaqwa25k.js","/mytech-site/_next/static/chunks/1wymrpq64jqw_.js","/mytech-site/_next/static/chunks/3zn1u7-fbxlu-.js"],""]
+3:I[42724,["/mytech-site/_next/static/chunks/0vnokpofwast_.js"],"default"]
+:HL["/mytech-site/_next/static/chunks/222zu2k_ar3t5.css","style"]
+:HL["https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css","style",{"crossOrigin":"anonymous"}]
+4:T72e,arXiv: 정상 (0 papers from 6/6 categories)
+arxiv_query: 정상 (34 techs x 27 week(s); 533 failed queries)
+funding_rss: 정상 (techcrunch_venture=20 platum=10 startuprecipe=4 venturesquare=30)
+github_repos: 정상 (17/167 repos; no GITHUB_TOKEN: rotating chunk 4/4; backfill needs GITHUB_TOKEN)
+github_trending: 정상 (9 trending repos via github.com/trending)
+hf_models: 정상 (100 models, 50 spaces)
+HF Papers: 정상 (1246 papers over 60 day(s))
+Hacker News: 정상 (23973 stories)
+hn_query: 정상 (67 techs x 53 week(s))
+jobs_adzuna: 건너뜀 (missing env ADZUNA_APP_ID,ADZUNA_APP_KEY)
+jobs_hn: 정상 (Ask HN: Who is hiring? (September 2026): 256 postings; Ask HN: Who is hiring? (August 2026): 233 postings; Ask HN: Who is hiring? (July 2026): 260 postings; Ask HN: Who is hiring? (June 2026): 317 postings; Ask HN: Who is hiring? (May 2026): 322 postings; Ask HN: Who is hiring? (April 2026): 333 postings; Ask HN: Who is hiring? (March 2026): 321 postings; Ask HN: Who is hiring? (February 2026): 412 postings; Ask HN: Who is hiring? (January 2026): 257 postings; Ask HN: Who is hiring? (December 20)
+jobs_remotive: 정상 (17 jobs scanned)
+jobs_saramin: 건너뜀 (missing env SARAMIN_ACCESS_KEY)
+naver: 건너뜀 (missing env NAVER_CLIENT_ID,NAVER_CLIENT_SECRET)
+Product Hunt: 건너뜀 (missing env PRODUCTHUNT_TOKEN)
+RSS 묶음: 정상 (geeknews=50 pytorchkr=30 yozm=30 irobotnews=50 techcrunch_ai=20 theverge_ai=10 ieee_robotics=30 mit_tr=10 hf_blog=868 github_blog=10)
+Wikipedia: 정상 (54 techs, 2025-09-28..2026-09-27)
+yc: 정상 (718 companies from fall-2026, summer-2026, spring-2026, winter-2026)
+YouTube: 정상 (60 videos from 4/15 channels; failed: 안될공학,안될과학,노마드 코더,코딩애플,개발바닥,우아한테크,Toss Tech,테디노트,빵형의 개발도상국,슈카월드,삼프로TV)a:X
+0:{"buildId":"P2E-4Q2MXwb65m_Mq6Som","data":[{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/mytech-site/_next/static/chunks/222zu2k_ar3t5.css","precedence":"next"}],["$","script","script-0",{"src":"/mytech-site/_next/static/chunks/0vnokpofwast_.js","async":true}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('mytech-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}"}}],["$","link",null,{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css","crossOrigin":"anonymous"}]]}],["$","body",null,{"children":[false,["$","header",null,{"className":"site-header","children":["$","div",null,{"className":"container header-row","children":[["$","$L2",null,{"href":"/","className":"brand","aria-label":"myTech 홈","children":[["$","svg",null,{"className":"brand-mark","viewBox":"0 0 24 24","aria-hidden":"true","children":[["$","circle",null,{"cx":"12","cy":"12","r":"10.5","fill":"none","stroke":"currentColor","strokeWidth":"1.5","opacity":"0.35"}],["$","circle",null,{"cx":"12","cy":"12","r":"6.5","fill":"none","stroke":"currentColor","strokeWidth":"1.5","opacity":"0.6"}],["$","circle",null,{"cx":"12","cy":"12","r":"2.5","fill":"var(--accent)"}],["$","path",null,{"d":"M12 12 L20 5","stroke":"var(--accent)","strokeWidth":"2","strokeLinecap":"round"}]]}],"myTech"]}],["$","$L3",null,{}],["$","div",null,{"className":"header-meta","children":[["$","span",null,{"title":"최신 주차(ISO 주의 월요일)","children":["최신 주차 ",["$","b",null,{"className":"num","children":"2026-09-21"}]]}],["$","span",null,{"className":"sep","children":"·"}],["$","span",null,{"title":"데이터 생성 시각","children":"2026-09-28 19:53 KST"}],["$","span",null,{"className":"sep","children":"·"}],["$","span",null,{"title":"$4","children":[["$","span",null,{"className":"status-dot","style":{"background":"var(--good)"},"aria-hidden":"true"}],"소스 15/19 정상"]}],["$","span",null,{"className":"sep","children":"·"}],["$","span",null,{"title":"이번 달 LLM 비용 / 월 예산","children":["LLM ",["$","b",null,{"className":"num","children":["$$","0.00"]}],"$L5"]}],"$L6"]}]]}]}],"$L7","$L8"]}]]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@b","rootVaryParams":null,"needsRuntimeRequest":"$@c"}
+d:I[62474,["/mytech-site/_next/static/chunks/0vnokpofwast_.js"],"default"]
+e:I[39756,["/mytech-site/_next/static/chunks/0vnokpofwast_.js"],"default"]
+f:I[37457,["/mytech-site/_next/static/chunks/0vnokpofwast_.js"],"default"]
+5:["$","span",null,{"className":"muted","children":[" / $","8"]}]
+6:["$","$Ld",null,{}]
+7:["$","main",null,{"children":["$","div",null,{"className":"container","children":["$","$Le",null,{"parallelRouterKey":"children","template":["$","$Lf",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]
+8:["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"container flex wrap between","children":[["$","span",null,{"children":"myTech · 뉴스에 뜨기 전에 먼저 본다. 보자마자 공부로 이어진다."}],["$","span",null,{"children":[["$","$L2",null,{"href":"/about/","children":"방법론"}]," · 데이터 ","2026-09-28 19:53 KST"]}]]}]}]
+a:300
+c:true
+a:C
+b:0
+9:"$undefined"
