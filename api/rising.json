@@ -1,0 +1,177 @@
+{
+ "week": "2026-11-02",
+ "rising": [
+  {
+   "id": "agentic-ai",
+   "momentum": 2.017,
+   "acceleration": 1.851,
+   "lead_source": "search",
+   "alert": true
+  },
+  {
+   "id": "ai-coding-agents",
+   "momentum": 1.861,
+   "acceleration": 1.222,
+   "lead_source": "models",
+   "alert": true
+  },
+  {
+   "id": "open-weight-models",
+   "momentum": 1.453,
+   "acceleration": 1.013,
+   "lead_source": "search",
+   "alert": true
+  },
+  {
+   "id": "gpu-accelerators",
+   "momentum": 1.226,
+   "acceleration": 0.859,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "agent-skills",
+   "momentum": 1.21,
+   "acceleration": 1.111,
+   "lead_source": "code",
+   "alert": true
+  },
+  {
+   "id": "personal-ai-agents",
+   "momentum": 1.089,
+   "acceleration": 0.846,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "image-generation",
+   "momentum": 1.002,
+   "acceleration": 0.531,
+   "lead_source": "models",
+   "alert": true
+  },
+  {
+   "id": "computer-use-agents",
+   "momentum": 0.875,
+   "acceleration": 0.282,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "humanoid-robots",
+   "momentum": 0.86,
+   "acceleration": 0.708,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "llm-inference-serving",
+   "momentum": 0.773,
+   "acceleration": 0.138,
+   "lead_source": "models",
+   "alert": true
+  },
+  {
+   "id": "rag",
+   "momentum": 0.773,
+   "acceleration": 0.465,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "robotaxi",
+   "momentum": 0.736,
+   "acceleration": 0.468,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "consumer-ai-assistants",
+   "momentum": 0.71,
+   "acceleration": 0.467,
+   "lead_source": "community",
+   "alert": false
+  },
+  {
+   "id": "multi-agent-frameworks",
+   "momentum": 0.665,
+   "acceleration": 0.448,
+   "lead_source": "search",
+   "alert": true
+  },
+  {
+   "id": "continual-learning",
+   "momentum": 0.65,
+   "acceleration": 0.212,
+   "lead_source": "search",
+   "alert": true
+  }
+ ],
+ "cooling": [
+  {
+   "id": "quantum-computing",
+   "momentum": -0.4
+  },
+  {
+   "id": "post-quantum-crypto",
+   "momentum": -0.333
+  },
+  {
+   "id": "quantum-software",
+   "momentum": -0.195
+  },
+  {
+   "id": "naive-rag",
+   "momentum": -0.139
+  },
+  {
+   "id": "ai-pc",
+   "momentum": -0.124
+  },
+  {
+   "id": "python-uv-tooling",
+   "momentum": -0.114
+  },
+  {
+   "id": "llm-observability-eval",
+   "momentum": -0.112
+  },
+  {
+   "id": "ag-ui",
+   "momentum": -0.075
+  }
+ ],
+ "movers": [
+  {
+   "id": "frontier-llm-api",
+   "from": "adopt",
+   "to": "trial"
+  },
+  {
+   "id": "gpu-accelerators",
+   "from": "adopt",
+   "to": "trial"
+  },
+  {
+   "id": "open-weight-models",
+   "from": "adopt",
+   "to": "trial"
+  },
+  {
+   "id": "consumer-ai-assistants",
+   "from": "adopt",
+   "to": "trial"
+  },
+  {
+   "id": "personal-ai-agents",
+   "from": "hold",
+   "to": "trial"
+  },
+  {
+   "id": "gaussian-splatting",
+   "from": "assess",
+   "to": "trial"
+  }
+ ],
+ "candidates": []
+}
