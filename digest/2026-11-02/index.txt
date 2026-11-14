@@ -1,0 +1,127 @@
+1:"$Sreact.fragment"
+2:I[25386,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"default"]
+3:I[22016,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],""]
+4:I[42724,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"default"]
+6:I[62474,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"default"]
+7:I[39756,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"default"]
+8:I[37457,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"default"]
+10:I[68027,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"default",1]
+:HL["/mytech-site/_next/static/chunks/3-54jikhbtr3t.css","style"]
+:HL["https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css","style",{"crossOrigin":"anonymous"}]
+5:T577,arXiv: 정상 (862 papers from 7/7 categories)
+arxiv_query: 정상 (36 techs x 1 week(s); 16 failed queries)
+funding_rss: 정상 (techcrunch_venture=20 platum=10 startuprecipe=4 venturesquare=30)
+github_repos: 정상 (172/172 repos)
+github_trending: 정상 (12 trending repos via github.com/trending)
+hf_models: 정상 (100 models, 50 spaces)
+HF Papers: 정상 (33 papers over 2 day(s))
+Hacker News: 정상 (118 stories)
+hn_query: 정상 (69 techs x 1 week(s))
+jobs_adzuna: 건너뜀 (missing env ADZUNA_APP_ID,ADZUNA_APP_KEY)
+jobs_hn: 정상 (Ask HN: Who is hiring? (November 2026): 207 postings)
+jobs_remotive: 정상 (13 jobs scanned)
+jobs_saramin: 건너뜀 (missing env SARAMIN_ACCESS_KEY)
+naver: 건너뜀 (missing env NAVER_CLIENT_ID,NAVER_CLIENT_SECRET)
+Product Hunt: 건너뜀 (missing env PRODUCTHUNT_TOKEN)
+RSS 묶음: 정상 (geeknews=20 pytorchkr=30 irobotnews=50 techcrunch_ai=20 theverge_ai=10 ieee_robotics=30 mit_tr=10 hf_blog=907 github_blog=10 quantum_insider=10 qc_report=10; failed: yozm)
+Wikipedia: 정상 (56 techs, 2026-11-07..2026-11-13)
+yc: 정상 (645 companies from winter-2027, fall-2026, summer-2026, spring-2026)
+YouTube: 정상 (0 videos from 0/15 channels; failed: 조코딩,안될공학,안될과학,코드팩토리,노마드 코더,코딩애플,개발바닥,우아한테크,Toss Tech,EO Korea,GPTers,테디노트,빵형의 개발도상국,슈카월드,삼프로TV)e:X
+0:{"P":null,"c":["","digest","2026-11-02",""],"q":"","i":false,"f":[[["",{"children":["digest",{"children":[["week","2026-11-02","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/mytech-site/_next/static/chunks/3-54jikhbtr3t.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{var t=localStorage.getItem('mytech-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}"}}],["$","link",null,{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css","crossOrigin":"anonymous"}]]}],["$","body",null,{"children":[false,["$","$L2",null,{"builtAt":"2026-11-14T01:10:19Z"}],["$","header",null,{"className":"site-header","children":["$","div",null,{"className":"container header-row","children":[["$","$L3",null,{"href":"/","className":"brand","aria-label":"myTech 홈","children":[["$","svg",null,{"className":"brand-mark","viewBox":"0 0 24 24","aria-hidden":"true","children":[["$","circle",null,{"cx":"12","cy":"12","r":"10.5","fill":"none","stroke":"currentColor","strokeWidth":"1.5","opacity":"0.35"}],["$","circle",null,{"cx":"12","cy":"12","r":"6.5","fill":"none","stroke":"currentColor","strokeWidth":"1.5","opacity":"0.6"}],["$","circle",null,{"cx":"12","cy":"12","r":"2.5","fill":"var(--accent)"}],["$","path",null,{"d":"M12 12 L20 5","stroke":"var(--accent)","strokeWidth":"2","strokeLinecap":"round"}]]}],"myTech"]}],["$","$L4",null,{}],["$","div",null,{"className":"header-meta","children":[["$","span",null,{"title":"최신 주차(ISO 주의 월요일)","children":["최신 주차 ",["$","b",null,{"className":"num","children":"2026-11-09"}]]}],["$","span",null,{"className":"sep","children":"·"}],["$","span",null,{"title":"데이터 생성 시각","children":"2026-11-14 10:10 KST"}],["$","span",null,{"className":"sep","children":"·"}],["$","span",null,{"title":"$5","children":[["$","span",null,{"className":"status-dot","style":{"background":"var(--good)"},"aria-hidden":"true"}],"소스 15/19 정상"]}],["$","span",null,{"className":"sep","children":"·"}],["$","span",null,{"title":"이번 달 LLM 비용 / 월 예산","children":["LLM ",["$","b",null,{"className":"num","children":["$$","0.00"]}],["$","span",null,{"className":"muted","children":[" / $","8"]}]]}],["$","$L6",null,{}]]}]]}]}],["$","main",null,{"children":["$","div",null,{"className":"container","children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":"$L9"}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$La"]}]]}]]}],{"children":["$Lb",{"children":["$Lc",{"children":["$Ld",{},null,false,null]},null,false,"$e"]},null,false,"$e"]},null,false,null],"$Lf",false]],"m":"$undefined","G":["$10",["$L11"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"EBwx3eNW-ug8kxTVhPkzN"}
+13:I[97367,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"ViewportBoundary"]
+18:I[97367,["/mytech-site/_next/static/chunks/2swhrlh6xo-ok.js"],"MetadataBoundary"]
+9:["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]
+a:["$","footer",null,{"className":"site-footer","children":["$","div",null,{"className":"container flex wrap between","children":[["$","span",null,{"children":"myTech · 뉴스에 뜨기 전에 먼저 본다. 보자마자 공부로 이어진다."}],["$","span",null,{"children":[["$","$L3",null,{"href":"/about/","children":"방법론"}]," · 데이터 ","2026-11-14 10:10 KST"]}]]}]}]
+b:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":["$L12",null,["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}]
+f:["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],null]}]
+11:["$","link","0",{"rel":"stylesheet","href":"/mytech-site/_next/static/chunks/3-54jikhbtr3t.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+e:C
+1a:T2903,<h1>주간 테크 레이더 2026-11-02: Agentic AI (Enterprise) 급상승</h1>
+<p>대시보드: <a href="https://danapany.github.io/mytech-site/" target="_blank" rel="noopener noreferrer">https://danapany.github.io/mytech-site/</a></p>
+<h2>✍️ 이번 주 한 문단</h2>
+<p>이번 주 가장 빠르게 오른 기술은 Agentic AI (Enterprise)(모멘텀 +2.04)입니다. AI Coding Agents, Open-Weight Models (Qwen/DeepSeek/Kimi/GLM)이(가) 뒤를 이었습니다. 상승 신호는 주로 &#39;대중 검색&#39;에서 먼저 나타났습니다. 링을 옮긴 기술은 7개이고, 그중 3개가 안쪽으로 이동했습니다.</p>
+<h2>🚀 급상승 Top 10</h2>
+<ol>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/agentic-ai/" target="_blank" rel="noopener noreferrer">Agentic AI (Enterprise)</a></strong>: 모멘텀 +2.04, 가속 +1.81, 선행 신호: 대중 검색, 링: 시험<ul>
+<li>근거: <a href="https://www.youtube.com/watch?v=B2QBL9TV6bI" target="_blank" rel="noopener noreferrer">AI 작업은 싸졌는데 GPU 임대료는 왜 오를까? 구글·MS·AWS 실적으로 살펴본 처리 효율, AI가 더 많이 쓰이면 한국 메모리도 바로 늘어날까?</a> · <a href="https://www.youtube.com/shorts/f3XvOfhjNZE" target="_blank" rel="noopener noreferrer">스펙 없이 삼일PwC 간 컴공 4학년의 비결</a> · <a href="https://github.com/vercel-labs/agent-desktop" target="_blank" rel="noopener noreferrer">vercel-labs/agent-desktop: Computer use CLI for AI agents</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/ai-coding-agents/" target="_blank" rel="noopener noreferrer">AI Coding Agents</a></strong>: 모멘텀 +1.77, 가속 +1.16, 선행 신호: 대중 검색, 링: 시험<ul>
+<li>근거: <a href="https://www.youtube.com/watch?v=UBY1C7n3FZA" target="_blank" rel="noopener noreferrer">6.1 Terra. Computer Use를 찢어버린 GPT</a> · <a href="https://www.youtube.com/watch?v=1AlbTXb8oPc" target="_blank" rel="noopener noreferrer">Herdr로 LLM 오케스트레이션 액기스 모음</a> · <a href="https://www.youtube.com/watch?v=TxnVTk72a3E" target="_blank" rel="noopener noreferrer">ego lite 드디어 윈도즈 버전 출시! 역대 가장 인기 있었던 브라우저</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/open-weight-models/" target="_blank" rel="noopener noreferrer">Open-Weight Models (Qwen/DeepSeek/Kimi/GLM)</a></strong>: 모멘텀 +1.33, 가속 +0.76, 선행 신호: 모델(HF), 링: 시험<ul>
+<li>근거: <a href="https://rikiyat.github.io/blog/weight-space-programming/" target="_blank" rel="noopener noreferrer">Astra can read and write weights to improve Qwen</a> · <a href="https://honnibal.dev/blog/astra-read-write-misleading" target="_blank" rel="noopener noreferrer">The &#39;Astra can read and write weights to improve Qwen&#39; post is misleading</a> · <a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/" target="_blank" rel="noopener noreferrer">Qwen 3.8 27B on my laptop can interpret model weights, too</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/agent-skills/" target="_blank" rel="noopener noreferrer">Agent Skills / AGENTS.md</a></strong>: 모멘텀 +1.29, 가속 +1.18, 선행 신호: 코드(GitHub), 링: 시험<ul>
+<li>근거: <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill: A coding-agent skill for multi-phase security audits with</a> · <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill: A coding-agent skill for multi-phase security audits with</a> · <a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noopener noreferrer">Donchitos/Claude-Code-Game-Studios: Turn Claude Code into a full game dev studio — 49 AI a</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/gpu-accelerators/" target="_blank" rel="noopener noreferrer">GPU &amp; AI Accelerator Infrastructure</a></strong>: 모멘텀 +1.18, 가속 +0.74, 선행 신호: 대중 검색, 링: 시험<ul>
+<li>근거: <a href="https://www.youtube.com/shorts/dYwVl8Z29ZA" target="_blank" rel="noopener noreferrer">84조원 어치 GPU를 때려박겠다는 머스크의 계획</a> · <a href="https://www.youtube.com/watch?v=B2QBL9TV6bI" target="_blank" rel="noopener noreferrer">AI 작업은 싸졌는데 GPU 임대료는 왜 오를까? 구글·MS·AWS 실적으로 살펴본 처리 효율, AI가 더 많이 쓰이면 한국 메모리도 바로 늘어날까?</a> · <a href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener noreferrer">JustVugg/colibri: A hierarchical inference engine for frontier MoE models: hot experts on </a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/personal-ai-agents/" target="_blank" rel="noopener noreferrer">Personal AI Agents (OpenClaw)</a></strong>: 모멘텀 +1.04, 가속 +0.75, 선행 신호: 대중 검색, 링: 시험<ul>
+<li>근거: <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">thedotmack/claude-mem: Persistent Context Across Sessions for Every Agent – Captures every</a> · <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">thedotmack/claude-mem: Persistent Context Across Sessions for Every Agent – Captures every</a> · <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">thedotmack/claude-mem: Persistent Context Across Sessions for Every Agent – Captures every</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/humanoid-robots/" target="_blank" rel="noopener noreferrer">Humanoid Robots</a></strong>: 모멘텀 +0.96, 가속 +0.72, 선행 신호: 대중 검색, 링: 시험<ul>
+<li>근거: <a href="https://www.youtube.com/shorts/SCr2l-0qEMM" target="_blank" rel="noopener noreferrer">드디어 학대를 시작한 인간놈들</a> · <a href="https://josef.cn/blog/unitree" target="_blank" rel="noopener noreferrer">I toured Unitree&#39;s factory. I&#39;m more bullish on the West</a> · <a href="https://huggingface.co/papers/2611.08449" target="_blank" rel="noopener noreferrer">VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/image-generation/" target="_blank" rel="noopener noreferrer">Image Generation (Flux/ComfyUI)</a></strong>: 모멘텀 +0.96, 가속 +0.41, 선행 신호: 모델(HF), 링: 시험<ul>
+<li>근거: <a href="https://huggingface.co/PrunaAI/P-H3-Image-Comfy" target="_blank" rel="noopener noreferrer">PrunaAI/P-H3-Image-Comfy (text-to-image)</a> · <a href="https://github.com/ConardLi/garden-skills" target="_blank" rel="noopener noreferrer">ConardLi/garden-skills: ConardLi&#39;s open-source Skills collection, featuring web design, kn</a> · <a href="https://huggingface.co/PrunaAI/P-H3-Image" target="_blank" rel="noopener noreferrer">PrunaAI/P-H3-Image (text-to-image)</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/computer-use-agents/" target="_blank" rel="noopener noreferrer">Browser &amp; Computer-Use Agents</a></strong>: 모멘텀 +0.83, 가속 +0.19, 선행 신호: 논문, 링: 시험<ul>
+<li>근거: <a href="https://www.youtube.com/watch?v=UBY1C7n3FZA" target="_blank" rel="noopener noreferrer">6.1 Terra. Computer Use를 찢어버린 GPT</a> · <a href="https://www.youtube.com/shorts/AJNTPMiyf_0" target="_blank" rel="noopener noreferrer">AI 여러 개가 내 컴퓨터를 동시에 조작하게 해주는 오픈소스 ㄷㄷ</a> · <a href="https://github.com/vercel-labs/agent-desktop" target="_blank" rel="noopener noreferrer">vercel-labs/agent-desktop: Computer use CLI for AI agents</a></li>
+</ul>
+</li>
+<li><strong><a href="https://danapany.github.io/mytech-site/tech/robotaxi/" target="_blank" rel="noopener noreferrer">Robotaxis (Waymo)</a></strong>: 모멘텀 +0.79, 가속 +0.45, 선행 신호: 대중 검색, 링: 시험</li>
+</ol>
+<ul>
+<li>근거: <a href="https://www.youtube.com/shorts/_70l_qR_Gq4" target="_blank" rel="noopener noreferrer">테슬라의 할로윈데이</a> · <a href="https://huggingface.co/papers/2611.08449" target="_blank" rel="noopener noreferrer">VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding</a> · <a href="https://huggingface.co/papers/2610.35850" target="_blank" rel="noopener noreferrer">OSWAM: An Effective World Action Model with One-Step Action Generation</a></li>
+</ul>
+<h2>🆕 신규 후보</h2>
+<ul>
+<li>대기 중인 신규 후보가 없습니다.</li>
+</ul>
+<h2>🔁 링 이동</h2>
+<ul>
+<li>⬆️ Personal AI Agents (OpenClaw): 보류 → 시험</li>
+<li>⬆️ AI Video Generation (B2B): 평가 → 시험</li>
+<li>⬆️ 3D Generation / Gaussian Splatting: 평가 → 시험</li>
+<li>⬇️ Frontier LLM APIs: 도입 → 시험</li>
+<li>⬇️ GPU &amp; AI Accelerator Infrastructure: 도입 → 시험</li>
+<li>⬇️ Open-Weight Models (Qwen/DeepSeek/Kimi/GLM): 도입 → 시험</li>
+<li>⬇️ Consumer AI Assistants: 도입 → 시험</li>
+</ul>
+<h2>📉 식는 기술</h2>
+<ul>
+<li>Quantum Computing (Hardware &amp; Error Correction): 모멘텀 -0.36</li>
+<li>Post-Quantum Cryptography (PQC): 모멘텀 -0.30</li>
+<li>Quantum Software &amp; Hybrid HPC: 모멘텀 -0.21</li>
+<li>Naive RAG: 모멘텀 -0.15</li>
+<li>AI PC Marketing (Copilot+ PC): 모멘텀 -0.14</li>
+</ul>
+<h2>💼 커리어</h2>
+<ul>
+<li><strong>Agentic AI (Enterprise)</strong> (점수 0.97): 채용 수요가 상위권(공고 40건) · 모멘텀 +2.04 급상승 중 · 보유 스킬 FastAPI, Java/Spring와(과) 연결 · 관심 분야</li>
+<li><strong>Agent Frameworks (LangGraph/CrewAI/ADK/Mastra)</strong> (점수 0.66): 채용 수요가 상위권(공고 14건) · 모멘텀 +0.65 · 보유 스킬 FastAPI, Java/Spring와(과) 연결 · 관심 분야</li>
+<li><strong>Agent Skills / AGENTS.md</strong> (점수 0.63): 채용 수요가 상위권(공고 10건) · 모멘텀 +1.29 급상승 중 · 보유 스킬 AI Coding Agents, FastAPI와(과) 연결</li>
+</ul>
+<h2>📚 내 학습 진도</h2>
+<ul>
+<li>MCP (Model Context Protocol): 공부중 ░░░░░░░░░░ 0%</li>
+</ul>
+<p><em>생성: 2026-11-08 00:07 UTC · myTech</em></p>
+12:[["$","nav",null,{"className":"small muted","style":{"marginBottom":12},"children":[["$","$L3",null,{"href":"/digest/","children":"다이제스트"}]," / ","2026-11-02"]}],["$","article",null,{"className":"card prose","dangerouslySetInnerHTML":{"__html":"$1a"}}],"$L1b"]
+1b:["$","div",null,{"className":"flex between mt-16 small","style":{"maxWidth":820},"children":[["$","$L3",null,{"href":"/digest/2026-09-21/","children":["← ","2026-09-21"]}],["$","span",null,{}]]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#f4f4f1","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0d0d0d","media":"(prefers-color-scheme: dark)"}]]
+15:null
+19:[["$","title","0",{"children":"주간 테크 레이더 2026-11-02: Agentic AI (Enterprise) 급상승 · myTech"}],["$","meta","1",{"name":"description","content":"뉴스에 뜨기 전에 먼저 본다. 기술별 인기도·모멘텀·가속도 레이더."}]]

@@ -1,0 +1,1535 @@
+{
+ "profile": {
+  "skills": [
+   {
+    "name": "Python",
+    "level": 4
+   },
+   {
+    "name": "FastAPI",
+    "level": 4
+   },
+   {
+    "name": "Django",
+    "level": 3
+   },
+   {
+    "name": "Node.js/TypeScript",
+    "level": 3
+   },
+   {
+    "name": "React/Next.js",
+    "level": 3
+   },
+   {
+    "name": "Java/Spring",
+    "level": 3
+   },
+   {
+    "name": "Docker",
+    "level": 4
+   },
+   {
+    "name": "Kubernetes",
+    "level": 3
+   },
+   {
+    "name": "AWS",
+    "level": 3
+   },
+   {
+    "name": "CI/CD",
+    "level": 4
+   },
+   {
+    "name": "SQL",
+    "level": 4
+   },
+   {
+    "name": "LLM API 활용",
+    "level": 3
+   }
+  ]
+ },
+ "skill_gap": [
+  {
+   "id": "agentic-ai",
+   "score": 0.795,
+   "reason_ko": "채용 수요가 상위권(공고 25건) · 모멘텀 +0.55 · 보유 스킬 FastAPI, Java/Spring와(과) 연결 · 관심 분야",
+   "demand": 1.0,
+   "momentum": 0.55,
+   "adjacency": 0.87
+  },
+  {
+   "id": "rust",
+   "score": 0.76,
+   "reason_ko": "채용 수요가 상위권(공고 20건) · 모멘텀 +0.96 · 보유 스킬 Node.js/TypeScript, Python와(과) 연결",
+   "demand": 0.934,
+   "momentum": 0.96,
+   "adjacency": 0.52
+  },
+  {
+   "id": "agent-skills",
+   "score": 0.618,
+   "reason_ko": "채용 수요가 상위권(공고 7건) · 모멘텀 +0.83 · 보유 스킬 AI Coding Agents, FastAPI와(과) 연결",
+   "demand": 0.638,
+   "momentum": 0.83,
+   "adjacency": 0.52
+  },
+  {
+   "id": "opentelemetry",
+   "score": 0.604,
+   "reason_ko": "채용 수요가 상위권(공고 8건) · 모멘텀 +0.22 · 보유 스킬 Docker와(과) 연결 · 관심 분야",
+   "demand": 0.674,
+   "momentum": 0.22,
+   "adjacency": 0.87
+  },
+  {
+   "id": "gpu-accelerators",
+   "score": 0.603,
+   "reason_ko": "채용 공고 3건 · 모멘텀 +0.74 · 보유 스킬 Docker와(과) 연결 · 관심 분야",
+   "demand": 0.425,
+   "momentum": 0.74,
+   "adjacency": 0.87
+  },
+  {
+   "id": "agent-memory",
+   "score": 0.546,
+   "reason_ko": "채용 공고 2건 · 모멘텀 +0.63 · 보유 스킬 RAG (Hybrid / Agentic), SQL와(과) 연결 · 관심 분야",
+   "demand": 0.337,
+   "momentum": 0.63,
+   "adjacency": 0.87
+  },
+  {
+   "id": "multi-agent-frameworks",
+   "score": 0.545,
+   "reason_ko": "채용 수요가 상위권(공고 5건) · 모멘텀 +0.17 · 보유 스킬 FastAPI, Java/Spring와(과) 연결 · 관심 분야",
+   "demand": 0.55,
+   "momentum": 0.17,
+   "adjacency": 0.87
+  },
+  {
+   "id": "voice-agents",
+   "score": 0.522,
+   "reason_ko": "채용 공고 2건 · 모멘텀 +0.51 · 보유 스킬 Consumer AI Assistants, LLM API 활용와(과) 연결 · 관심 분야",
+   "demand": 0.337,
+   "momentum": 0.51,
+   "adjacency": 0.87
+  },
+  {
+   "id": "open-weight-models",
+   "score": 0.511,
+   "reason_ko": "채용 공고 2건 · 모멘텀 +0.62 · 보유 스킬 LLM API 활용와(과) 연결 · 관심 분야",
+   "demand": 0.337,
+   "momentum": 0.62,
+   "adjacency": 0.74
+  },
+  {
+   "id": "durable-execution",
+   "score": 0.49,
+   "reason_ko": "채용 공고 3건 · 모멘텀 +0.15 · 보유 스킬 Docker와(과) 연결 · 관심 분야",
+   "demand": 0.425,
+   "momentum": 0.15,
+   "adjacency": 0.87
+  }
+ ],
+ "jobs": [
+  {
+   "id": "agentic-ai",
+   "jobs_saramin": null,
+   "jobs_hn": 24.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": -0.375
+  },
+  {
+   "id": "kubernetes-platform-engineering",
+   "jobs_saramin": null,
+   "jobs_hn": 19.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 2.0,
+   "trend": -0.4
+  },
+  {
+   "id": "rust",
+   "jobs_saramin": null,
+   "jobs_hn": 18.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 2.0,
+   "trend": -0.2
+  },
+  {
+   "id": "ai-coding-agents",
+   "jobs_saramin": null,
+   "jobs_hn": 19.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": -0.2
+  },
+  {
+   "id": "mcp",
+   "jobs_saramin": null,
+   "jobs_hn": 8.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.2
+  },
+  {
+   "id": "opentelemetry",
+   "jobs_saramin": null,
+   "jobs_hn": 7.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": -0.385
+  },
+  {
+   "id": "context-engineering",
+   "jobs_saramin": null,
+   "jobs_hn": 8.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.529
+  },
+  {
+   "id": "agent-skills",
+   "jobs_saramin": null,
+   "jobs_hn": 7.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.3
+  },
+  {
+   "id": "multi-agent-frameworks",
+   "jobs_saramin": null,
+   "jobs_hn": 4.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": -0.643
+  },
+  {
+   "id": "humanoid-robots",
+   "jobs_saramin": null,
+   "jobs_hn": 4.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 0.0
+  },
+  {
+   "id": "llm-observability-eval",
+   "jobs_saramin": null,
+   "jobs_hn": 4.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 0.0
+  },
+  {
+   "id": "vector-db",
+   "jobs_saramin": null,
+   "jobs_hn": 3.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": -0.556
+  },
+  {
+   "id": "ai-scientist",
+   "jobs_saramin": null,
+   "jobs_hn": 4.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.429
+  },
+  {
+   "id": "consumer-ai-assistants",
+   "jobs_saramin": null,
+   "jobs_hn": 4.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.2
+  },
+  {
+   "id": "ai-security",
+   "jobs_saramin": null,
+   "jobs_hn": 3.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 0.5
+  },
+  {
+   "id": "ai-workflow-automation",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 2.0,
+   "trend": -0.5
+  },
+  {
+   "id": "js-runtimes-toolchain",
+   "jobs_saramin": null,
+   "jobs_hn": 3.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "rag",
+   "jobs_saramin": null,
+   "jobs_hn": 2.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": -0.769
+  },
+  {
+   "id": "durable-execution",
+   "jobs_saramin": null,
+   "jobs_hn": 3.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.25
+  },
+  {
+   "id": "rl-post-training",
+   "jobs_saramin": null,
+   "jobs_hn": 2.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": 0.0
+  },
+  {
+   "id": "gpu-accelerators",
+   "jobs_saramin": null,
+   "jobs_hn": 3.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 2.0
+  },
+  {
+   "id": "robot-simulation",
+   "jobs_saramin": null,
+   "jobs_hn": 2.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 1.0
+  },
+  {
+   "id": "open-weight-models",
+   "jobs_saramin": null,
+   "jobs_hn": 2.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 0.0
+  },
+  {
+   "id": "agent-memory",
+   "jobs_saramin": null,
+   "jobs_hn": 2.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 0.0
+  },
+  {
+   "id": "voice-agents",
+   "jobs_saramin": null,
+   "jobs_hn": 2.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.714
+  },
+  {
+   "id": "harness-engineering",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.5
+  },
+  {
+   "id": "llm-inference-serving",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": -0.5
+  },
+  {
+   "id": "on-device-ai",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 1.0,
+   "trend": 0.0
+  },
+  {
+   "id": "vibe-coding",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.5
+  },
+  {
+   "id": "robotaxi",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.667
+  },
+  {
+   "id": "bci",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "low-bit-quantization",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.5
+  },
+  {
+   "id": "frontier-llm-api",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -0.75
+  },
+  {
+   "id": "ai-video-generation",
+   "jobs_saramin": null,
+   "jobs_hn": 1.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": 0.0
+  },
+  {
+   "id": "ai-drug-discovery",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "ai-smart-glasses",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "computer-use-agents",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "defense-ai-drones",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "java-ai-frameworks",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "llama-ecosystem",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "local-llm-runtime",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "reasoning-models",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "silicon-photonics-cpo",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "vla-models",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "ai-pc",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "gaussian-splatting",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "naive-rag",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "quantum-computing",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "world-models",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "coding-agent-swarms",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "custom-ai-asic",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "image-generation",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "webassembly",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "a2a-protocol",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "ag-ui",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "consumer-ai-video-apps",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "continual-learning",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "diffusion-language-models",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "hbm",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "personal-ai-agents",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "prompt-engineering",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "python-uv-tooling",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "spec-driven-development",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "jepa-world-models",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "mechanistic-interpretability",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "vlm-document-parsing",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": -1.0
+  },
+  {
+   "id": "agentic-commerce",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "post-quantum-crypto",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  },
+  {
+   "id": "quantum-software",
+   "jobs_saramin": null,
+   "jobs_hn": 0.0,
+   "jobs_adzuna": null,
+   "jobs_remotive": 0.0,
+   "trend": null
+  }
+ ],
+ "funding": [
+  {
+   "date": "2026-11-14",
+   "company": null,
+   "round": "Pre-IPO",
+   "amount_usd": 82681159.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5841423",
+   "title": "[이번주투자] 메디컬에이아이 프리IPO…AI‧바이오에 대형 자금"
+  },
+  {
+   "date": "2026-11-13",
+   "company": "마키나락스",
+   "round": null,
+   "amount_usd": 10362319.0,
+   "tech_id": "humanoid-robots",
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1128426/",
+   "title": "마키나락스, 3분기 누적 매출 143억원…피지컬 AI 수주 확대에 분기 최대 실적"
+  },
+  {
+   "date": "2026-11-13",
+   "company": "원티드랩",
+   "round": null,
+   "amount_usd": 7173913.0,
+   "tech_id": "agentic-ai",
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1128557/",
+   "title": "원티드랩, 3분기 AX 매출 37% 증가…AI 에이전트 1200개 운영하며 사업 확장"
+  },
+  {
+   "date": "2026-11-13",
+   "company": "피지컬 AI 마키나락스",
+   "round": null,
+   "amount_usd": 5217391.0,
+   "tech_id": "humanoid-robots",
+   "country": "KR",
+   "url": "https://platum.kr/archives/298512?utm_source=rss&utm_medium=rss&utm_campaign=%25ed%2594%25bc%25ec%25a7%2580%25ec%25bb%25ac-ai-%25eb%25a7%2588%25ed%2582%25a4%25eb%2582%2598%25eb%259d%25bd%25ec%258a%25a4-3%25eb%25b6%2584%25ea%25b8%25b0-%25eb%25a7%25a4%25ec%25b6%259c-72%25ec%2596%25b5%25ec%25a0%2584%25eb%2585%2584%25e6%25af%2594-214-%25ec%2584%25b1%25ec%259e%25a5",
+   "title": "피지컬 AI 마키나락스, 3분기 매출 72억…전년比 214% 성장"
+  },
+  {
+   "date": "2026-11-13",
+   "company": "라이플렉스사이언스",
+   "round": "Series A",
+   "amount_usd": 5072464.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1128397/",
+   "title": "라이플렉스사이언스, 시리즈 A 70억원 유치…골관절염 RNA 치료제 임상 준비 가속"
+  },
+  {
+   "date": "2026-11-13",
+   "company": "라이플렉스사이언스",
+   "round": "Series A",
+   "amount_usd": 5072464.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1128470/",
+   "title": "라이플렉스사이언스, 70억원 투자 유치…골관절염 RNA 치료제 임상 준비 속도"
+  },
+  {
+   "date": "2026-11-13",
+   "company": "국내 테크 투자 4년 만에 반등",
+   "round": "Seed",
+   "amount_usd": null,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/298542?utm_source=rss&utm_medium=rss&utm_campaign=%25ea%25b5%25ad%25eb%2582%25b4-%25ed%2585%258c%25ed%2581%25ac-%25ed%2588%25ac%25ec%259e%2590-4%25eb%2585%2584-%25eb%25a7%258c%25ec%2597%2590-%25eb%25b0%2598%25eb%2593%25b1-%25eb%258a%2598%25ec%2596%25b4%25eb%2582%259c-%25eb%258f%2588-%25ec%25a0%2588%25eb%25b0%2598-%25eb%2584%2598%25ea%25b2%258c-%25eb%2591%2590",
+   "title": "국내 테크 투자 4년 만에 반등, 늘어난 돈 절반 넘게 두나무 한 건에"
+  },
+  {
+   "date": "2026-11-12",
+   "company": "그록",
+   "round": "Series B",
+   "amount_usd": 8000000000.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840719",
+   "title": "그록, 기업가치 80억 달러로 투자 유치 추진한다"
+  },
+  {
+   "date": "2026-11-12",
+   "company": null,
+   "round": null,
+   "amount_usd": 4000000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+   "title": "Norwest pushes deeper into AI with new $4B fund"
+  },
+  {
+   "date": "2026-11-12",
+   "company": "기술보증기금",
+   "round": null,
+   "amount_usd": 402173913.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1128097/",
+   "title": "기술보증기금, 기술중소기업 336곳에 5550억원 공급…R&D 사업화 금융지원 확대"
+  },
+  {
+   "date": "2026-11-12",
+   "company": "감성코퍼레이션",
+   "round": null,
+   "amount_usd": 39565217.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1128250/",
+   "title": "감성코퍼레이션, 3분기 매출 546억원…스노우피크 어패럴 앞세워 중국 시장 확대"
+  },
+  {
+   "date": "2026-11-12",
+   "company": "부산창경",
+   "round": null,
+   "amount_usd": 13985507.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1128174/",
+   "title": "부산창경, 스타트업 15개사 서울 투자시장 연결…193억원 투자유치 도전"
+  },
+  {
+   "date": "2026-11-12",
+   "company": "블루포인트",
+   "round": null,
+   "amount_usd": 11666667.0,
+   "tech_id": "quantum-computing",
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1127844/",
+   "title": "블루포인트, 양자 QX 스케일업 3년 성과 공개…5개국 고객 확보·후속투자 161억원"
+  },
+  {
+   "date": "2026-11-11",
+   "company": "중기부",
+   "round": null,
+   "amount_usd": 95144928.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1127651/",
+   "title": "중기부, 전남광주에 1,313억 원 지역성장펀드 출범…2,000억 원 벤처투자 기반 마련"
+  },
+  {
+   "date": "2026-11-11",
+   "company": "전남광주 지역성장펀드 1",
+   "round": null,
+   "amount_usd": 95144928.0,
+   "tech_id": "agentic-ai",
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5841079",
+   "title": "[AI서머리] 전남광주 지역성장펀드 1,313억원 출범‧중기부, 2030년 AI 유니콘 20개 육성"
+  },
+  {
+   "date": "2026-11-11",
+   "company": "전남·광주 은행·대학·포스코까지 출자",
+   "round": null,
+   "amount_usd": 95144928.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/298349?utm_source=rss&utm_medium=rss&utm_campaign=%25ec%25a0%2584%25eb%2582%25a8%25c2%25b7%25ea%25b4%2591%25ec%25a3%25bc-%25ec%259d%2580%25ed%2596%2589%25c2%25b7%25eb%258c%2580%25ed%2595%2599%25c2%25b7%25ed%258f%25ac%25ec%258a%25a4%25ec%25bd%2594%25ea%25b9%258c%25ec%25a7%2580-%25ec%25b6%259c%25ec%259e%2590-%25ec%25a7%2580%25ec%2597%25ad-%25eb%25b2%25a4%25ec%25b2%2598",
+   "title": "전남·광주 은행·대학·포스코까지 출자, 지역 벤처 모펀드 출범"
+  },
+  {
+   "date": "2026-11-11",
+   "company": "중기부",
+   "round": null,
+   "amount_usd": 7246377.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1127646/",
+   "title": "중기부, AI 유니콘 20개 키운다…기업당 100억 원 이상 지원·정부가 첫 고객으로"
+  },
+  {
+   "date": "2026-11-11",
+   "company": "제주 로컬기업",
+   "round": null,
+   "amount_usd": 1159420.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/298314?utm_source=rss&utm_medium=rss&utm_campaign=%25ec%25a0%259c%25ec%25a3%25bc-%25eb%25a1%259c%25ec%25bb%25ac%25ea%25b8%25b0%25ec%2597%2585-%25ec%25a4%2591%25ea%25b5%25ad%25c2%25b7%25eb%25af%25b8%25ea%25b5%25ad-%25eb%25b0%2594%25ec%259d%25b4%25ec%2596%25b4%25ec%2599%2580-%25ec%2588%2598%25ec%25b6%259c-%25ea%25b3%2584%25ec%2595%25bd-%25eb%25a7%25ba%25ec%2596%25b4",
+   "title": "제주 로컬기업, 중국·미국 바이어와 수출 계약 맺어"
+  },
+  {
+   "date": "2026-11-10",
+   "company": null,
+   "round": null,
+   "amount_usd": 2956521739.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1127413/",
+   "title": "6개 스타트업에서 469개 기업으로…권혁빈 CVO와 서상봉 오렌지플래닛 센터장이 지켜온 12년의 창업 지원 철학"
+  },
+  {
+   "date": "2026-11-10",
+   "company": "크래프톤",
+   "round": null,
+   "amount_usd": 2632608696.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1127415/",
+   "title": "크래프톤, 3분기 누적 매출 3.6조 돌파…PUBG 성장에 신작·AI로 사업 확장"
+  },
+  {
+   "date": "2026-11-10",
+   "company": "크래프톤",
+   "round": null,
+   "amount_usd": 703913043.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/298233?utm_source=rss&utm_medium=rss&utm_campaign=%25ed%2581%25ac%25eb%259e%2598%25ed%2594%2584%25ed%2586%25a4-3%25eb%25b6%2584%25ea%25b8%25b0-%25ec%2598%2581%25ec%2597%2585%25ec%259d%25b4%25ec%259d%25b5-%25ec%25a4%2584%25ec%2597%2588%25ec%25a7%2580%25eb%25a7%258c-%25eb%2588%2584%25ec%25a0%2581-%25ec%258b%25a4%25ec%25a0%2581%25ec%259d%2580-%25ec%2597%25ad%25eb%258c%2580",
+   "title": "크래프톤, 3분기 영업이익 줄었지만 누적 실적은 역대 최대"
+  },
+  {
+   "date": "2026-11-10",
+   "company": "컬리",
+   "round": null,
+   "amount_usd": 563695652.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1127204/",
+   "title": "컬리, 3분기 매출 7,779억원 역대 최대…영업이익 100억원·7분기 연속 흑자"
+  },
+  {
+   "date": "2026-11-10",
+   "company": "두나무",
+   "round": null,
+   "amount_usd": 473913043.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1127262/",
+   "title": "두나무, 업비트 이용자 보호·경제적 기여 등 6,540억 원 가치 산정…첫 임팩트 보고서 발간"
+  },
+  {
+   "date": "2026-11-10",
+   "company": "두나무",
+   "round": null,
+   "amount_usd": 473913043.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/298117?utm_source=rss&utm_medium=rss&utm_campaign=%25eb%2591%2590%25eb%2582%2598%25eb%25ac%25b4-2026-%25ec%259e%2584%25ed%258c%25a9%25ed%258a%25b8-%25eb%25b3%25b4%25ea%25b3%25a0%25ec%2584%259c-%25eb%25b0%259c%25ea%25b0%2584-2025%25eb%2585%2584-%25ea%25b0%2580%25ec%25b9%2598-6540%25ec%2596%25b5-%25ec%259b%2590-%25ec%2582%25b0%25ec%25a0%2595",
+   "title": "두나무, ‘2026 임팩트 보고서’ 발간…2025년 가치 6,540억 원 산정"
+  },
+  {
+   "date": "2026-11-10",
+   "company": "Proximal Ventures",
+   "round": null,
+   "amount_usd": 27500000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
+   "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development"
+  },
+  {
+   "date": "2026-11-10",
+   "company": "트리나",
+   "round": null,
+   "amount_usd": 7060000.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840833",
+   "title": "[AI서머리] 트리나, 투자 유치‧킨드레드 벤처스, ‘AI 웨이브: 서울 2026’ 개최"
+  },
+  {
+   "date": "2026-11-09",
+   "company": "코리아스타트업포럼",
+   "round": null,
+   "amount_usd": 77971014.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126800/",
+   "title": "코리아스타트업포럼, BIXPO서 투자상담 1,076억원…스타트업·산업계 297건 매칭"
+  },
+  {
+   "date": "2026-11-09",
+   "company": "부산연합기술지주 박훈기 대표",
+   "round": null,
+   "amount_usd": 23333333.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126762/",
+   "title": "부산연합기술지주 박훈기 대표, 글로벌품질경영인 대상…126개 스타트업 투자 성과"
+  },
+  {
+   "date": "2026-11-09",
+   "company": "헥토파이낸셜",
+   "round": null,
+   "amount_usd": 13405797.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126875/",
+   "title": "헥토파이낸셜, 3분기 누적 영업이익 185억원…전년 대비 54.4% 증가"
+  },
+  {
+   "date": "2026-11-09",
+   "company": "배달 보조금 빠진 루이싱",
+   "round": null,
+   "amount_usd": 72464.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/298021?utm_source=rss&utm_medium=rss&utm_campaign=%25ec%25a4%2591%25ea%25b5%25ad-%25eb%25b9%2584%25ec%25a6%2588%25eb%258b%2588%25ec%258a%25a4-%25ed%258a%25b8%25eb%25a0%258c%25eb%2593%259c%25eb%258f%2599%25ed%2596%25a5-%25eb%25b0%25b0%25eb%258b%25ac-%25eb%25b3%25b4%25ec%25a1%25b0%25ea%25b8%2588-%25eb%25b9%25a0%25ec%25a7%2584-%25eb%25a3%25a8%25ec%259d%25b4",
+   "title": "[중국 비즈니스 트렌드&동향] 배달 보조금 빠진 루이싱, 가상 도로에서 3년치 달리는 바이두"
+  },
+  {
+   "date": "2026-11-09",
+   "company": "모티프테크놀로지스",
+   "round": "Bridge",
+   "amount_usd": null,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126933/",
+   "title": "모티프테크놀로지스, 차세대 AI 모델 ‘모티프 4’ 개발 착수…엔비디아 투자 참여 예정"
+  },
+  {
+   "date": "2026-11-09",
+   "company": "모티프테크놀로지스",
+   "round": "Bridge",
+   "amount_usd": null,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/298101?utm_source=rss&utm_medium=rss&utm_campaign=%25eb%25aa%25a8%25ed%258b%25b0%25ed%2594%2584%25ed%2585%258c%25ed%2581%25ac%25eb%2586%2580%25eb%25a1%259c%25ec%25a7%2580%25ec%258a%25a4-%25ec%25b0%25a8%25ec%2584%25b8%25eb%258c%2580-%25eb%25aa%25a8%25eb%258d%25b8-%25ea%25b0%259c%25eb%25b0%259c-%25ec%259c%2584%25ed%2595%259c-%25eb%25b8%258c%25eb%25a6%25bf%25ec%25a7%2580",
+   "title": "모티프테크놀로지스, 차세대 모델 개발 위한 브릿지 투자 유치… 엔비디아 참여 예정"
+  },
+  {
+   "date": "2026-11-07",
+   "company": "유로보틱스",
+   "round": "Series A",
+   "amount_usd": 66231884.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840517",
+   "title": "[이번주투자] 유로보틱스 밸류 10배 껑충‧모션데이터‧반도체 투자 눈길"
+  },
+  {
+   "date": "2026-11-07",
+   "company": null,
+   "round": null,
+   "amount_usd": 3985507.0,
+   "tech_id": "quantum-computing",
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840502",
+   "title": "[이번주생태계] “지역으로” 제주 창업페스티벌‧울산 스타트업 페스타"
+  },
+  {
+   "date": "2026-11-06",
+   "company": "연 2조원 오가는 캐디피",
+   "round": null,
+   "amount_usd": 1449275362.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/297954?utm_source=rss&utm_medium=rss&utm_campaign=%25ec%2597%25b0-2%25ec%25a1%25b0%25ec%259b%2590-%25ec%2598%25a4%25ea%25b0%2580%25eb%258a%2594-%25ec%25ba%2590%25eb%2594%2594%25ed%2594%25bc-%25ed%2598%2584%25ea%25b8%2588-%25eb%25b4%2589%25ed%2588%25ac-%25eb%258c%2580%25ec%258b%25a0-qr-%25ec%25b9%25b4%25eb%2593%259c%25ea%25b2%25b0%25ec%25a0%259c%25eb%25a1%259c",
+   "title": "연 2조원 오가는 캐디피, 현금 봉투 대신 QR 카드결제로…인피니소프트 ‘캐디머니’"
+  },
+  {
+   "date": "2026-11-06",
+   "company": "기술보증기금·부산시·BNK금융그룹",
+   "round": null,
+   "amount_usd": 10869565.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126260/",
+   "title": "기술보증기금·부산시·BNK금융그룹, 기후테크 기업에 150억원 금융지원"
+  },
+  {
+   "date": "2026-11-06",
+   "company": "씨이랩",
+   "round": null,
+   "amount_usd": 7246377.0,
+   "tech_id": "gpu-accelerators",
+   "country": "KR",
+   "url": "https://platum.kr/archives/297977?utm_source=rss&utm_medium=rss&utm_campaign=%25eb%25a7%2588%25eb%258a%2598-%25ec%259c%25a0%25ed%2586%25b5%25eb%25b6%2580%25ed%2584%25b0-%25ea%25b3%25bc%25ec%25b1%2584-%25eb%25b6%2580%25ec%2582%25b0%25eb%25ac%25bc-%25ea%25b0%2580%25ec%25a3%25bd%25ea%25b9%258c%25ec%25a7%2580-%25eb%2586%258d%25ec%2582%25b0%25ec%2597%2585-%25ec%258a%25a4%25ed%2583%2580%25ed%258a%25b8",
+   "title": "씨이랩, 국민성장펀드 등에서 100억 원 조달…AI 데이터센터 사업 키운다"
+  },
+  {
+   "date": "2026-11-06",
+   "company": "더즌",
+   "round": null,
+   "amount_usd": 6811594.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126250/",
+   "title": "더즌, 3분기 누적 순이익 94억원·8.7% 증가…외환거래 솔루션 매출 14.9% 성장"
+  },
+  {
+   "date": "2026-11-06",
+   "company": "노이즈앤피치",
+   "round": null,
+   "amount_usd": 72464.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126393/",
+   "title": "노이즈앤피치, 첫 크리에이터 커머스서 억대 판매…‘비비다은’ 팬덤 분석 통했다"
+  },
+  {
+   "date": "2026-11-06",
+   "company": "광주창경",
+   "round": "Strategic",
+   "amount_usd": null,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840460",
+   "title": "[AI서머리] 광주창경, 창업도시 투자유치 IR 개최‧에이아이트릭스, 홍콩 OASES 전략기업 선정"
+  },
+  {
+   "date": "2026-11-05",
+   "company": "쿠팡 카드 결제액",
+   "round": null,
+   "amount_usd": 4495144928.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/297886?utm_source=rss&utm_medium=rss&utm_campaign=%25ec%25bf%25a0%25ed%258c%25a1-%25ec%25b9%25b4%25eb%2593%259c-%25ea%25b2%25b0%25ec%25a0%259c%25ec%2595%25a1-%25ec%2584%259d-%25eb%258b%25ac-%25eb%25a7%258c%25ec%2597%2590-%25eb%258b%25a4%25ec%258b%259c-%25ec%25b5%259c%25eb%258c%2580%25ec%25b9%2598%25ec%25bf%25a0%25ed%258c%25a1%25ec%259d%25b4%25ec%25b8%25a0",
+   "title": "쿠팡 카드 결제액, 석 달 만에 다시 최대치…쿠팡이츠는 두 자릿수 성장"
+  },
+  {
+   "date": "2026-11-05",
+   "company": null,
+   "round": null,
+   "amount_usd": 250000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/11/05/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+   "title": "The ex-Secret Service agent who flipped a hacker is now raising a second $250M cybersecurity fund"
+  },
+  {
+   "date": "2026-11-05",
+   "company": "중기부",
+   "round": null,
+   "amount_usd": 233768116.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126127/",
+   "title": "중기부, 정책자금 불법 브로커 의심 3,226억원 차단…경찰청과 합동 신고기간 운영"
+  },
+  {
+   "date": "2026-11-05",
+   "company": "버추얼 아이돌부터 웹툰 애니메이션 변환 AI까지",
+   "round": null,
+   "amount_usd": 34130435.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/297889?utm_source=rss&utm_medium=rss&utm_campaign=%25eb%25b2%2584%25ec%25b6%2594%25ec%2596%25bc-%25ec%2595%2584%25ec%259d%25b4%25eb%258f%258c%25eb%25b6%2580%25ed%2584%25b0-%25ec%259b%25b9%25ed%2588%25b0-%25ec%2595%25a0%25eb%258b%2588%25eb%25a9%2594%25ec%259d%25b4%25ec%2585%2598-%25eb%25b3%2580%25ed%2599%2598-ai%25ea%25b9%258c%25ec%25a7%2580-%25ea%25b2%25bd%25ea%25b8%25b0",
+   "title": "버추얼 아이돌부터 웹툰 애니메이션 변환 AI까지, 경기 콘텐츠 스타트업 투자자 앞에 섰다"
+  },
+  {
+   "date": "2026-11-05",
+   "company": "엑스와이지",
+   "round": null,
+   "amount_usd": 2898551.0,
+   "tech_id": "humanoid-robots",
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126081/",
+   "title": "엑스와이지, 40억원 규모 오픈소스 휴머노이드 개발 참여…보행·조작 AI 학습 데이터 구축"
+  },
+  {
+   "date": "2026-11-05",
+   "company": "누구나 쓰는 보급형 휴머노이드 만든다",
+   "round": null,
+   "amount_usd": 2898551.0,
+   "tech_id": "humanoid-robots",
+   "country": "KR",
+   "url": "https://platum.kr/archives/297875?utm_source=rss&utm_medium=rss&utm_campaign=%25eb%2588%2584%25ea%25b5%25ac%25eb%2582%2598-%25ec%2593%25b0%25eb%258a%2594-%25eb%25b3%25b4%25ea%25b8%2589%25ed%2598%2595-%25ed%259c%25b4%25eb%25a8%25b8%25eb%2585%25b8%25ec%259d%25b4%25eb%2593%259c-%25eb%25a7%258c%25eb%2593%25a0%25eb%258b%25a4-%25ec%2597%2591%25ec%258a%25a4%25ec%2599%2580%25ec%259d%25b4%25ec%25a7%2580",
+   "title": "누구나 쓰는 보급형 휴머노이드 만든다, 엑스와이지는 학습 데이터 맡아"
+  },
+  {
+   "date": "2026-11-05",
+   "company": "남도마켓",
+   "round": null,
+   "amount_usd": 1449275.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1126097/",
+   "title": "남도마켓, 스케일업 팁스 선정…도매시장 거래 대화로 주문·재고·정산 자동화하는 AI 개발"
+  },
+  {
+   "date": "2026-11-04",
+   "company": "Sequoia hits rewind",
+   "round": null,
+   "amount_usd": 10000000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
+   "title": "Sequoia hits rewind, undoing 20 years of expansion"
+  },
+  {
+   "date": "2026-11-04",
+   "company": "한인 창업 美 뷰티 리테일 ‘미스에이(MISS A)",
+   "round": null,
+   "amount_usd": 724637681.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/297723?utm_source=rss&utm_medium=rss&utm_campaign=%25ed%2595%259c%25ec%259d%25b8-%25ec%25b0%25bd%25ec%2597%2585-%25e7%25be%258e-%25eb%25b7%25b0%25ed%258b%25b0-%25eb%25a6%25ac%25ed%2585%258c%25ec%259d%25bc-%25eb%25af%25b8%25ec%258a%25a4%25ec%2597%2590%25ec%259d%25b4miss-a-%25ea%25b8%25b0%25ec%2597%2585%25ea%25b0%2580%25ec%25b9%2598-1%25ec%25a1%25b0",
+   "title": "한인 창업 美 뷰티 리테일 ‘미스에이(MISS A)’, 기업가치 1조원 육박"
+  },
+  {
+   "date": "2026-11-04",
+   "company": "루닛",
+   "round": null,
+   "amount_usd": 34565217.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1125679/",
+   "title": "루닛, 477억원 규모 CB 발행…볼파라 인수금융 대환으로 이자 부담 낮춘다"
+  },
+  {
+   "date": "2026-11-04",
+   "company": "소풍벤처스-한림대기술지주",
+   "round": null,
+   "amount_usd": 9782609.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/297717?utm_source=rss&utm_medium=rss&utm_campaign=%25ec%2586%258c%25ed%2592%258d%25eb%25b2%25a4%25ec%25b2%2598%25ec%258a%25a4-%25ed%2595%259c%25eb%25a6%25bc%25eb%258c%2580%25ea%25b8%25b0%25ec%2588%25a0%25ec%25a7%2580%25ec%25a3%25bc-135%25ec%2596%25b5-%25ea%25b7%259c%25eb%25aa%25a8-%25ea%25b0%2595%25ec%259b%2590-%25ec%25a0%2584%25eb%259e%25b5%25ec%2582%25b0%25ec%2597%2585",
+   "title": "소풍벤처스-한림대기술지주, 135억 규모 강원 전략산업 펀드 결성"
+  },
+  {
+   "date": "2026-11-04",
+   "company": "매쉬업벤처스",
+   "round": "Seed",
+   "amount_usd": null,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840142",
+   "title": "[AI서머리] 매쉬업벤처스, AI 커머스 테르밋에 시드 투자‧젠엑시스, 바이오 스타트업 5개사 데모데이"
+  },
+  {
+   "date": "2026-11-04",
+   "company": "AI 콘텐츠 에이전트 ‘크리에이지’ 운영사 테르밋",
+   "round": "Seed",
+   "amount_usd": null,
+   "tech_id": "multi-agent-frameworks",
+   "country": "KR",
+   "url": "https://platum.kr/archives/297714?utm_source=rss&utm_medium=rss&utm_campaign=ai-%25ec%25bd%2598%25ed%2585%2590%25ec%25b8%25a0-%25ec%2597%2590%25ec%259d%25b4%25ec%25a0%2584%25ed%258a%25b8-%25ed%2581%25ac%25eb%25a6%25ac%25ec%2597%2590%25ec%259d%25b4%25ec%25a7%2580-%25ec%259a%25b4%25ec%2598%2581%25ec%2582%25ac-%25ed%2585%258c%25eb%25a5%25b4%25eb%25b0%258b-%25ec%258b%259c",
+   "title": "AI 콘텐츠 에이전트 ‘크리에이지’ 운영사 테르밋, 시드 투자 유치"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "중기부",
+   "round": null,
+   "amount_usd": 3367536232.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840082",
+   "title": "[AI서머리] 중기부, ‘소공인 디깅위크’ 성수동서 개최‧고교생 해커톤 ‘THE해커톤’ 성료"
+  },
+  {
+   "date": "2026-11-03",
+   "company": null,
+   "round": null,
+   "amount_usd": 490000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+   "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom"
+  },
+  {
+   "date": "2026-11-03",
+   "company": null,
+   "round": null,
+   "amount_usd": 218913043.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/297652?utm_source=rss&utm_medium=rss&utm_campaign=%25ec%25b9%25b4%25ec%25b9%25b4%25ec%2598%25a4%25ed%258e%2598%25ec%259d%25b4-3%25eb%25b6%2584%25ea%25b8%25b0-%25ec%2598%2581%25ec%2597%2585%25ec%259d%25b4%25ec%259d%25b5-%25eb%2591%2590-%25eb%25b0%25b0%25eb%25a1%259c%25ec%2598%25a4%25ed%2594%2584%25eb%259d%25bc%25ec%259d%25b8-%25ea%25b2%25b0%25ec%25a0%259c",
+   "title": "카카오페이 3분기 영업이익 두 배로…오프라인 결제·손해보험·증권이 함께 끌었다"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "뷰웍스",
+   "round": null,
+   "amount_usd": 44637681.0,
+   "tech_id": "hbm",
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1125382/",
+   "title": "뷰웍스, 3분기 영업이익 154.8% 증가…HBM 검사 수요에 머신비전 매출 급증"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "QAI",
+   "round": null,
+   "amount_usd": 35362319.0,
+   "tech_id": "quantum-computing",
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1125303/",
+   "title": "QAI, AI 컴퓨팅 장비 공급계약 488억원 체결…설립 1년 만에 대규모 수주"
+  },
+  {
+   "date": "2026-11-03",
+   "company": null,
+   "round": null,
+   "amount_usd": 17000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
+   "title": "Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "소풍벤처스·한림대기술지주",
+   "round": null,
+   "amount_usd": 9782609.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1125450/",
+   "title": "소풍벤처스·한림대기술지주, 135억원 강원 전략산업 펀드 결성…기후테크·헬스케어 초기기업 투자"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "위고페어",
+   "round": "Pre-A",
+   "amount_usd": 724638.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840065",
+   "title": "[AI서머리] 위고페어, 10억원 프리A 투자 유치‧부산창경, ‘휴앤커넥트’ 생성형 AI 교육"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "세종창조경제혁신센터 투자기업 팥알",
+   "round": null,
+   "amount_usd": 72464.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://www.venturesquare.net/1125402/",
+   "title": "세종창조경제혁신센터 투자기업 팥알, 스케일업 LIPS 선정…고령친화 두유 ‘올고담’ 메디푸드 확장"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "강원 바이오·헬스케어 스타트업 데모데이",
+   "round": "Bridge",
+   "amount_usd": null,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/297699?utm_source=rss&utm_medium=rss&utm_campaign=%25ea%25b0%2595%25ec%259b%2590-%25eb%25b0%2594%25ec%259d%25b4%25ec%2598%25a4%25c2%25b7%25ed%2597%25ac%25ec%258a%25a4%25ec%25bc%2580%25ec%2596%25b4-%25ec%258a%25a4%25ed%2583%2580%25ed%258a%25b8%25ec%2597%2585-%25eb%258d%25b0%25eb%25aa%25a8%25eb%258d%25b0%25ec%259d%25b4-%25ed%2588%25ac%25ec%259e%2590%25ec%259e%2590%25ec%2599%2580",
+   "title": "강원 바이오·헬스케어 스타트업 데모데이, 투자자와 1:1 라운드테이블서 투자 유치 확정까지"
+  },
+  {
+   "date": "2026-11-02",
+   "company": "Trajectory",
+   "round": null,
+   "amount_usd": 45000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+   "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts"
+  },
+  {
+   "date": "2026-11-02",
+   "company": "무빈",
+   "round": "Series A",
+   "amount_usd": 7246377.0,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://startuprecipe.co.kr/archives/5840034",
+   "title": "[AI서머리] 무빈, 시리즈A 100억 원 유치‧스카이랩스, 보령과 우주의학 협약"
+  },
+  {
+   "date": "2026-10-29",
+   "company": null,
+   "round": null,
+   "amount_usd": 15300000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+   "title": "OpenAI-backed Thrive Holdings acquires ADT"
+  },
+  {
+   "date": "2026-10-29",
+   "company": null,
+   "round": null,
+   "amount_usd": 17000000.0,
+   "tech_id": "world-models",
+   "country": null,
+   "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+   "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction"
+  },
+  {
+   "date": "2026-10-27",
+   "company": "Disruptive",
+   "round": null,
+   "amount_usd": 10000000000.0,
+   "tech_id": "voice-agents",
+   "country": null,
+   "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+   "title": "Disruptive raises $10B fund to make big bets on at least 10 companies"
+  },
+  {
+   "date": "2026-10-27",
+   "company": null,
+   "round": null,
+   "amount_usd": 1700000000.0,
+   "tech_id": "agentic-ai",
+   "country": null,
+   "url": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+   "title": "Guidewire buys Hyperexponential for $1.7B in cash"
+  },
+  {
+   "date": "2026-09-26",
+   "company": "AI가 쓴 소설 가려내기",
+   "round": "Seed",
+   "amount_usd": null,
+   "tech_id": null,
+   "country": "KR",
+   "url": "https://platum.kr/archives/295202?utm_source=rss&utm_medium=rss&utm_campaign=ai%25ea%25b0%2580-%25ec%2593%25b4-%25ec%2586%258c%25ec%2584%25a4-%25ea%25b0%2580%25eb%25a0%25a4%25eb%2582%25b4%25ea%25b8%25b0-%25eb%25ac%25b8%25ed%2595%2599-%25ea%25b2%25bd%25ed%2597%2598%25eb%25b3%25b4%25eb%258b%25a4-ai-%25ec%2582%25ac%25ec%259a%25a9-%25ea%25b2%25bd%25ed%2597%2598%25ec%259d%25b4-%25eb%258f%2584",
+   "title": "AI가 쓴 소설 가려내기, 문학 경험보다 AI 사용 경험이 도움"
+  },
+  {
+   "date": "2026-09-25",
+   "company": "Ahead of US IPO, British AI neocloud Nscale",
+   "round": "IPO",
+   "amount_usd": 3360000000.0,
+   "tech_id": "gpu-accelerators",
+   "country": null,
+   "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+   "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing"
+  },
+  {
+   "date": "2026-09-25",
+   "company": null,
+   "round": null,
+   "amount_usd": 250000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
+   "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI"
+  },
+  {
+   "date": "2026-09-23",
+   "company": null,
+   "round": null,
+   "amount_usd": 5750000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/",
+   "title": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI"
+  },
+  {
+   "date": "2026-09-22",
+   "company": "Morphotonics",
+   "round": null,
+   "amount_usd": 40000000.0,
+   "tech_id": null,
+   "country": null,
+   "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-to-expand-its-display-tech-into-data-centers/",
+   "title": "Morphotonics raises €40M to expand its display tech into data centers"
+  }
+ ],
+ "funding_by_tech": [
+  {
+   "id": "humanoid-robots",
+   "count": 4,
+   "amount_usd": 21376812.0
+  },
+  {
+   "id": "agentic-ai",
+   "count": 3,
+   "amount_usd": 1802318841.0
+  },
+  {
+   "id": "quantum-computing",
+   "count": 3,
+   "amount_usd": 51014493.0
+  },
+  {
+   "id": "gpu-accelerators",
+   "count": 2,
+   "amount_usd": 3367246377.0
+  },
+  {
+   "id": "voice-agents",
+   "count": 1,
+   "amount_usd": 10000000000.0
+  },
+  {
+   "id": "hbm",
+   "count": 1,
+   "amount_usd": 44637681.0
+  },
+  {
+   "id": "world-models",
+   "count": 1,
+   "amount_usd": 17000000.0
+  },
+  {
+   "id": "multi-agent-frameworks",
+   "count": 1,
+   "amount_usd": 0.0
+  }
+ ],
+ "yc_tags": [
+  {
+   "tag": "Marketplace",
+   "shares": {
+    "X26": 0.0,
+    "S26": 0.0212,
+    "F26": 0.0132,
+    "W27": 0.25
+   }
+  },
+  {
+   "tag": "Aerospace",
+   "shares": {
+    "X26": 0.0146,
+    "S26": 0.0212,
+    "F26": 0.0264,
+    "W27": 0.25
+   }
+  },
+  {
+   "tag": "Workflow Automation",
+   "shares": {
+    "X26": 0.0049,
+    "S26": 0.0508,
+    "F26": 0.0088,
+    "W27": 0.25
+   }
+  },
+  {
+   "tag": "B2B",
+   "shares": {
+    "X26": 0.0728,
+    "S26": 0.2203,
+    "F26": 0.1718,
+    "W27": 0.25
+   }
+  }
+ ],
+ "ideas": [
+  {
+   "title": "Humanoid Robots 데이터 수집·시뮬레이션을 대행하는 개발자용 플랫폼",
+   "why_ko": "글로벌 모멘텀 +0.53, 최근 90일 펀딩 4건(약 $21.4M), 국내 채용 공고 0건으로, 해외 대비 국내 공급이 적어 먼저 들어갈 여지가 있습니다.",
+   "evidence": [
+    "humanoid-robots"
+   ]
+  },
+  {
+   "title": "Consumer AI Assistants로 국내 중소기업 업무(견적·CS·정산)를 자동화하는 B2B SaaS",
+   "why_ko": "글로벌 모멘텀 +1.45, 국내 채용 공고 0건으로, 해외 대비 국내 공급이 적어 먼저 들어갈 여지가 있습니다.",
+   "evidence": [
+    "consumer-ai-assistants"
+   ]
+  },
+  {
+   "title": "Frontier LLM APIs을(를) 활용한 한국어 특화 문서 검색·요약 API",
+   "why_ko": "글로벌 모멘텀 +1.42, 국내 채용 공고 0건으로, 해외 대비 국내 공급이 적어 먼저 들어갈 여지가 있습니다.",
+   "evidence": [
+    "frontier-llm-api"
+   ]
+  }
+ ]
+}

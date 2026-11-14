@@ -1,0 +1,159 @@
+{
+ "week": "2026-11-09",
+ "rising": [
+  {
+   "id": "consumer-ai-assistants",
+   "momentum": 1.454,
+   "acceleration": 0.735,
+   "lead_source": "community",
+   "alert": true
+  },
+  {
+   "id": "frontier-llm-api",
+   "momentum": 1.419,
+   "acceleration": 0.769,
+   "lead_source": "community",
+   "alert": true
+  },
+  {
+   "id": "rust",
+   "momentum": 0.959,
+   "acceleration": 0.767,
+   "lead_source": "code",
+   "alert": true
+  },
+  {
+   "id": "robot-simulation",
+   "momentum": 0.869,
+   "acceleration": 0.68,
+   "lead_source": "search",
+   "alert": true
+  },
+  {
+   "id": "agent-skills",
+   "momentum": 0.835,
+   "acceleration": -0.375,
+   "lead_source": "code",
+   "alert": true
+  },
+  {
+   "id": "rag",
+   "momentum": 0.799,
+   "acceleration": 0.017,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "gpu-accelerators",
+   "momentum": 0.744,
+   "acceleration": -0.512,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "harness-engineering",
+   "momentum": 0.741,
+   "acceleration": 0.42,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "ai-coding-agents",
+   "momentum": 0.731,
+   "acceleration": -1.169,
+   "lead_source": "models",
+   "alert": false
+  },
+  {
+   "id": "robotaxi",
+   "momentum": 0.696,
+   "acceleration": -0.062,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "agent-memory",
+   "momentum": 0.631,
+   "acceleration": 0.457,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "open-weight-models",
+   "momentum": 0.617,
+   "acceleration": -0.94,
+   "lead_source": "models",
+   "alert": false
+  },
+  {
+   "id": "world-models",
+   "momentum": 0.579,
+   "acceleration": -0.001,
+   "lead_source": "search",
+   "alert": false
+  },
+  {
+   "id": "on-device-ai",
+   "momentum": 0.575,
+   "acceleration": 0.27,
+   "lead_source": "models",
+   "alert": false
+  },
+  {
+   "id": "mcp",
+   "momentum": 0.563,
+   "acceleration": -0.115,
+   "lead_source": "models",
+   "alert": false
+  }
+ ],
+ "cooling": [
+  {
+   "id": "coding-agent-swarms",
+   "momentum": -0.39
+  },
+  {
+   "id": "post-quantum-crypto",
+   "momentum": -0.178
+  },
+  {
+   "id": "quantum-software",
+   "momentum": -0.095
+  },
+  {
+   "id": "computer-use-agents",
+   "momentum": -0.05
+  },
+  {
+   "id": "spec-driven-development",
+   "momentum": -0.017
+  },
+  {
+   "id": "rl-post-training",
+   "momentum": -0.016
+  }
+ ],
+ "movers": [
+  {
+   "id": "ai-coding-agents",
+   "from": "trial",
+   "to": "adopt"
+  },
+  {
+   "id": "open-weight-models",
+   "from": "trial",
+   "to": "adopt"
+  },
+  {
+   "id": "agentic-ai",
+   "from": "trial",
+   "to": "adopt"
+  },
+  {
+   "id": "world-models",
+   "from": "assess",
+   "to": "trial"
+  }
+ ],
+ "candidates": []
+}
