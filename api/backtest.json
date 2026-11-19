@@ -1,0 +1,1637 @@
+{
+ "generated_at": "2026-11-19T02:08:37Z",
+ "weeks_evaluated": 5,
+ "precision_at_10": 0.2,
+ "mean_lead_days": -0.9,
+ "events": [
+  {
+   "id": "image-generation",
+   "flagged_week": "2026-06-15",
+   "public_spike_date": "2026-06-22",
+   "lead_days": 7
+  },
+  {
+   "id": "open-weight-models",
+   "flagged_week": "2026-07-27",
+   "public_spike_date": "2026-08-24",
+   "lead_days": 28
+  },
+  {
+   "id": "on-device-ai",
+   "flagged_week": "2026-08-24",
+   "public_spike_date": "2026-08-17",
+   "lead_days": -7
+  },
+  {
+   "id": "agentic-ai",
+   "flagged_week": "2026-09-07",
+   "public_spike_date": "2026-08-10",
+   "lead_days": -28
+  },
+  {
+   "id": "computer-use-agents",
+   "flagged_week": "2026-09-14",
+   "public_spike_date": "2026-09-14",
+   "lead_days": 0
+  },
+  {
+   "id": "ai-video-generation",
+   "flagged_week": "2026-10-26",
+   "public_spike_date": null,
+   "lead_days": null
+  },
+  {
+   "id": "gaussian-splatting",
+   "flagged_week": "2026-10-26",
+   "public_spike_date": null,
+   "lead_days": null
+  },
+  {
+   "id": "ai-coding-agents",
+   "flagged_week": "2026-11-02",
+   "public_spike_date": "2026-11-02",
+   "lead_days": 0
+  },
+  {
+   "id": "agent-skills",
+   "flagged_week": "2026-11-02",
+   "public_spike_date": null,
+   "lead_days": null
+  },
+  {
+   "id": "gpu-accelerators",
+   "flagged_week": "2026-11-02",
+   "public_spike_date": "2026-11-02",
+   "lead_days": 0
+  },
+  {
+   "id": "frontier-llm-api",
+   "flagged_week": "2026-11-09",
+   "public_spike_date": null,
+   "lead_days": null
+  },
+  {
+   "id": "consumer-ai-assistants",
+   "flagged_week": "2026-11-09",
+   "public_spike_date": "2026-11-02",
+   "lead_days": -7
+  }
+ ],
+ "eval": {
+  "method": {
+   "version": 2,
+   "primary_horizon": 4,
+   "cooldown_weeks": 4,
+   "min_events": 30,
+   "benchmark": "equal_weight_all_techs",
+   "group_weights": "equal"
+  },
+  "strategies": [
+   {
+    "key": "alert",
+    "label_ko": "🚀 알림",
+    "events": 38,
+    "pending": 28,
+    "per_week": 2.36,
+    "curve": [
+     {
+      "h": 1,
+      "mean_excess": 0.0217,
+      "n": 63
+     },
+     {
+      "h": 2,
+      "mean_excess": 0.0271,
+      "n": 40
+     },
+     {
+      "h": 4,
+      "mean_excess": 0.0175,
+      "n": 38
+     },
+     {
+      "h": 8,
+      "mean_excess": 0.0311,
+      "n": 37
+     },
+     {
+      "h": 12,
+      "mean_excess": 0.041,
+      "n": 24
+     }
+    ],
+    "win_rate": 0.6316,
+    "win_ci": [
+     0.5357,
+     0.7429
+    ],
+    "false_alarm_rate": 0.3684,
+    "mean_excess": 0.0175,
+    "mean_ci": [
+     -0.0217,
+     0.0611
+    ],
+    "median_excess": 0.0282,
+    "mean_raw": -0.0832,
+    "held_rate": 0.4737,
+    "sustained_rate": 0.1579,
+    "max_drawdown": 0.1259,
+    "profit_factor": 1.41,
+    "verdict": "inconclusive"
+   },
+   {
+    "key": "alert_live",
+    "label_ko": "🚀 알림 (실시간 발행분)",
+    "events": 0,
+    "pending": 37,
+    "per_week": 0.93,
+    "curve": [
+     {
+      "h": 1,
+      "mean_excess": 0.0068,
+      "n": 23
+     },
+     {
+      "h": 2,
+      "mean_excess": null,
+      "n": 0
+     },
+     {
+      "h": 4,
+      "mean_excess": null,
+      "n": 0
+     },
+     {
+      "h": 8,
+      "mean_excess": null,
+      "n": 0
+     },
+     {
+      "h": 12,
+      "mean_excess": null,
+      "n": 0
+     }
+    ],
+    "verdict": "insufficient"
+   },
+   {
+    "key": "alert_broad",
+    "label_ko": "🚀 전반 급등 (M≥1·가속)",
+    "events": 5,
+    "pending": 9,
+    "per_week": 0.5,
+    "curve": [
+     {
+      "h": 1,
+      "mean_excess": 0.1092,
+      "n": 12
+     },
+     {
+      "h": 2,
+      "mean_excess": 0.0995,
+      "n": 7
+     },
+     {
+      "h": 4,
+      "mean_excess": 0.0731,
+      "n": 5
+     },
+     {
+      "h": 8,
+      "mean_excess": 0.1161,
+      "n": 5
+     },
+     {
+      "h": 12,
+      "mean_excess": 0.1609,
+      "n": 2
+     }
+    ],
+    "win_rate": 0.6,
+    "win_ci": [
+     0.2,
+     1.0
+    ],
+    "false_alarm_rate": 0.4,
+    "mean_excess": 0.0731,
+    "mean_ci": [
+     0.0084,
+     0.1444
+    ],
+    "median_excess": 0.0701,
+    "mean_raw": -0.002,
+    "held_rate": 0.6,
+    "sustained_rate": 0.0,
+    "max_drawdown": 0.0852,
+    "profit_factor": 11.16,
+    "verdict": "insufficient"
+   },
+   {
+    "key": "alert_spike",
+    "label_ko": "🚀 선행 신호 급등 (그룹 z≥2)",
+    "events": 36,
+    "pending": 24,
+    "per_week": 2.14,
+    "curve": [
+     {
+      "h": 1,
+      "mean_excess": 0.0158,
+      "n": 56
+     },
+     {
+      "h": 2,
+      "mean_excess": 0.0261,
+      "n": 36
+     },
+     {
+      "h": 4,
+      "mean_excess": 0.0228,
+      "n": 36
+     },
+     {
+      "h": 8,
+      "mean_excess": 0.0274,
+      "n": 34
+     },
+     {
+      "h": 12,
+      "mean_excess": 0.0414,
+      "n": 23
+     }
+    ],
+    "win_rate": 0.6389,
+    "win_ci": [
+     0.5455,
+     0.7391
+    ],
+    "false_alarm_rate": 0.3611,
+    "mean_excess": 0.0228,
+    "mean_ci": [
+     -0.0123,
+     0.067
+    ],
+    "median_excess": 0.0282,
+    "mean_raw": -0.106,
+    "held_rate": 0.4722,
+    "sustained_rate": 0.1667,
+    "max_drawdown": 0.1259,
+    "profit_factor": 1.51,
+    "verdict": "inconclusive"
+   },
+   {
+    "key": "rising_top10",
+    "label_ko": "급상승 Top 10",
+    "events": 147,
+    "pending": 30,
+    "per_week": 6.32,
+    "curve": [
+     {
+      "h": 1,
+      "mean_excess": 0.0628,
+      "n": 167
+     },
+     {
+      "h": 2,
+      "mean_excess": 0.0542,
+      "n": 163
+     },
+     {
+      "h": 4,
+      "mean_excess": 0.0353,
+      "n": 150
+     },
+     {
+      "h": 8,
+      "mean_excess": 0.0291,
+      "n": 136
+     },
+     {
+      "h": 12,
+      "mean_excess": 0.0309,
+      "n": 107
+     }
+    ],
+    "win_rate": 0.6259,
+    "win_ci": [
+     0.557,
+     0.6957
+    ],
+    "false_alarm_rate": 0.3741,
+    "mean_excess": 0.0369,
+    "mean_ci": [
+     0.0149,
+     0.062
+    ],
+    "median_excess": 0.0274,
+    "mean_raw": -0.0611,
+    "held_rate": 0.4354,
+    "sustained_rate": 0.1973,
+    "max_drawdown": 0.1336,
+    "profit_factor": 2.08,
+    "verdict": "pass"
+   },
+   {
+    "key": "popularity_top10",
+    "label_ko": "인기도 Top 10 (단순 기준선)",
+    "events": 76,
+    "pending": 14,
+    "per_week": 3.21,
+    "curve": [
+     {
+      "h": 1,
+      "mean_excess": 0.0035,
+      "n": 89
+     },
+     {
+      "h": 2,
+      "mean_excess": -0.0062,
+      "n": 85
+     },
+     {
+      "h": 4,
+      "mean_excess": -0.0261,
+      "n": 76
+     },
+     {
+      "h": 8,
+      "mean_excess": -0.0098,
+      "n": 64
+     },
+     {
+      "h": 12,
+      "mean_excess": -0.0046,
+      "n": 52
+     }
+    ],
+    "win_rate": 0.3947,
+    "win_ci": [
+     0.3011,
+     0.5082
+    ],
+    "false_alarm_rate": 0.6053,
+    "mean_excess": -0.0261,
+    "mean_ci": [
+     -0.0617,
+     0.0078
+    ],
+    "median_excess": -0.0132,
+    "mean_raw": -0.1398,
+    "held_rate": 0.2632,
+    "sustained_rate": 0.0789,
+    "max_drawdown": 0.1365,
+    "profit_factor": 0.56,
+    "verdict": "inconclusive"
+   }
+  ],
+  "equity": {
+   "weeks": [
+    "2026-05-04",
+    "2026-05-11",
+    "2026-05-18",
+    "2026-05-25",
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10",
+    "2026-08-17",
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-07",
+    "2026-09-14",
+    "2026-09-21",
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-12"
+   ],
+   "series": {
+    "alert": [
+     0.0,
+     0.0471,
+     0.4353,
+     0.4672,
+     0.4672,
+     0.4009,
+     0.5151,
+     0.5148,
+     0.6182,
+     0.6182,
+     0.823,
+     0.8664,
+     0.7495,
+     0.7495,
+     0.7657,
+     0.9845,
+     1.0135,
+     0.9849,
+     0.8722,
+     0.8619,
+     0.3713,
+     0.3713,
+     0.3713,
+     0.3713
+    ],
+    "rising_top10": [
+     0.1379,
+     0.2568,
+     0.2971,
+     0.2903,
+     0.3701,
+     0.4363,
+     0.4534,
+     0.4367,
+     0.3667,
+     0.3742,
+     0.4082,
+     0.4248,
+     0.4861,
+     0.503,
+     0.532,
+     0.5961,
+     0.5916,
+     0.5704,
+     0.5616,
+     0.5718,
+     0.5363,
+     1.0122,
+     0.9931,
+     0.9949
+    ],
+    "popularity_top10": [
+     -0.0582,
+     0.044,
+     0.044,
+     0.044,
+     0.0186,
+     0.0347,
+     0.1488,
+     0.1488,
+     0.1208,
+     0.108,
+     0.2011,
+     0.2164,
+     0.2006,
+     0.2007,
+     0.2713,
+     0.1165,
+     0.1597,
+     0.1788,
+     0.1581,
+     0.1006,
+     -0.2606,
+     -0.3244,
+     -0.3109,
+     -0.0984
+    ]
+   }
+  },
+  "alerts": [
+   {
+    "id": "vibe-coding",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.43,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "robot-simulation",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.17,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "on-device-ai",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.54,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "mcp",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.7,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "jepa-world-models",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.55,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "gpu-accelerators",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.69,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "frontier-llm-api",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 1.17,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "computer-use-agents",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.26,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "ai-coding-agents",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.87,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "agent-memory",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.36,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "ag-ui",
+    "week": "2026-11-16",
+    "live": true,
+    "momentum": 0.69,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "consumer-ai-assistants",
+    "week": "2026-11-09",
+    "live": true,
+    "momentum": 1.28,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "mcp",
+    "week": "2026-11-09",
+    "live": true,
+    "momentum": 0.77,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "robot-simulation",
+    "week": "2026-11-09",
+    "live": true,
+    "momentum": 0.87,
+    "excess": null,
+    "raw": null,
+    "path": [],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "agent-skills",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 1.32,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.0108
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "agentic-ai",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 1.99,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.0486
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "ai-coding-agents",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 1.8,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.1925
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "ai-scientist",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.42,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.0371
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "ai-security",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.43,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.1338
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "computer-use-agents",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.8,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.1767
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "continual-learning",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.61,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.1653
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "frontier-llm-api",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.53,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.2444
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "gpu-accelerators",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 1.24,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.08
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "harness-engineering",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.34,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.0033
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "humanoid-robots",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.8,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.0753
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "image-generation",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.91,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.041
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "llm-inference-serving",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.47,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.1376
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "low-bit-quantization",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.39,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.0582
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "multi-agent-frameworks",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.62,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.1858
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "open-weight-models",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 1.32,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.2127
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "personal-ai-agents",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.96,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.1394
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "rag",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.74,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.2493
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "reasoning-models",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.35,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.0217
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "rl-post-training",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.6,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.0718
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "robotaxi",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.75,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.1306
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "vla-models",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.57,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.0198
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "world-models",
+    "week": "2026-11-02",
+    "live": true,
+    "momentum": 0.62,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.1529
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "ai-video-generation",
+    "week": "2026-10-26",
+    "live": false,
+    "momentum": 1.04,
+    "excess": null,
+    "raw": null,
+    "path": [
+     0.1413,
+     0.1506
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "gaussian-splatting",
+    "week": "2026-10-26",
+    "live": false,
+    "momentum": 1.0,
+    "excess": null,
+    "raw": null,
+    "path": [
+     -0.0353,
+     -0.056
+    ],
+    "sustained": null,
+    "status": "pending"
+   },
+   {
+    "id": "rl-post-training",
+    "week": "2026-09-21",
+    "live": false,
+    "momentum": 0.58,
+    "excess": -0.4906,
+    "raw": -1.7907,
+    "path": [
+     -0.4934,
+     -0.5105,
+     -0.4935,
+     -0.4906
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "computer-use-agents",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 1.17,
+    "excess": -0.0003,
+    "raw": -0.318,
+    "path": [
+     -0.008,
+     0.0035,
+     0.0049,
+     -0.0003
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "diffusion-language-models",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 0.55,
+    "excess": 0.0263,
+    "raw": -0.1881,
+    "path": [
+     0.1732,
+     0.0748,
+     0.0425,
+     0.0263
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "llama-ecosystem",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 0.51,
+    "excess": 0.0947,
+    "raw": -0.6424,
+    "path": [
+     0.0801,
+     0.0865,
+     0.0921,
+     0.0947
+    ],
+    "sustained": true,
+    "status": "win"
+   },
+   {
+    "id": "local-llm-runtime",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 0.58,
+    "excess": 0.0514,
+    "raw": -0.2671,
+    "path": [
+     0.2299,
+     0.1279,
+     0.0795,
+     0.0514
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "low-bit-quantization",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 0.71,
+    "excess": -0.0447,
+    "raw": -0.3353,
+    "path": [
+     -0.0931,
+     -0.0831,
+     -0.071,
+     -0.0447
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "mcp",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 0.87,
+    "excess": 0.0562,
+    "raw": -0.2344,
+    "path": [
+     0.0256,
+     0.0727,
+     0.0623,
+     0.0562
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "on-device-ai",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 0.16,
+    "excess": -0.101,
+    "raw": -0.4195,
+    "path": [
+     -0.2211,
+     -0.1448,
+     -0.1112,
+     -0.101
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "open-weight-models",
+    "week": "2026-09-14",
+    "live": false,
+    "momentum": 0.88,
+    "excess": -0.1652,
+    "raw": -0.4829,
+    "path": [
+     0.1272,
+     -0.0578,
+     -0.1407,
+     -0.1652
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "agentic-ai",
+    "week": "2026-09-07",
+    "live": false,
+    "momentum": 1.01,
+    "excess": 0.0701,
+    "raw": -0.0703,
+    "path": [
+     0.0559,
+     0.1134,
+     0.0971,
+     0.0701
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "robotaxi",
+    "week": "2026-09-07",
+    "live": false,
+    "momentum": 1.0,
+    "excess": -0.2954,
+    "raw": -0.5083,
+    "path": [
+     -0.1765,
+     -0.2117,
+     -0.3039,
+     -0.2954
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "image-generation",
+    "week": "2026-08-31",
+    "live": false,
+    "momentum": 0.03,
+    "excess": 0.0016,
+    "raw": 0.038,
+    "path": [
+     -0.2176,
+     0.0084,
+     0.0224,
+     0.0016
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "opentelemetry",
+    "week": "2026-08-31",
+    "live": false,
+    "momentum": 0.58,
+    "excess": -0.0589,
+    "raw": -0.0381,
+    "path": [
+     -0.0543,
+     -0.0794,
+     -0.0616,
+     -0.0589
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "ai-video-generation",
+    "week": "2026-08-24",
+    "live": false,
+    "momentum": 0.23,
+    "excess": 0.0291,
+    "raw": 0.1338,
+    "path": [
+     0.0848,
+     0.0893,
+     0.0412,
+     0.0291
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "open-weight-models",
+    "week": "2026-08-17",
+    "live": false,
+    "momentum": 0.41,
+    "excess": 0.2187,
+    "raw": 0.3008,
+    "path": [
+     0.1449,
+     0.0601,
+     0.0904,
+     0.2187
+    ],
+    "sustained": true,
+    "status": "win"
+   },
+   {
+    "id": "ai-scientist",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.69,
+    "excess": 0.0274,
+    "raw": 0.074,
+    "path": [
+     0.0829,
+     0.0276,
+     -0.0025,
+     0.0274
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "continual-learning",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.84,
+    "excess": -0.1597,
+    "raw": -0.1186,
+    "path": [
+     -0.0174,
+     -0.0573,
+     -0.0937,
+     -0.1597
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "frontier-llm-api",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.24,
+    "excess": -0.0304,
+    "raw": 0.0209,
+    "path": [
+     0.062,
+     -0.0275,
+     -0.031,
+     -0.0304
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "harness-engineering",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.25,
+    "excess": 0.1451,
+    "raw": 0.1843,
+    "path": [
+     0.3154,
+     0.2361,
+     0.2257,
+     0.1451
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "llm-inference-serving",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.55,
+    "excess": 0.0197,
+    "raw": 0.0682,
+    "path": [
+     -0.0685,
+     -0.0944,
+     -0.029,
+     0.0197
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "local-llm-runtime",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.54,
+    "excess": 0.0649,
+    "raw": 0.105,
+    "path": [
+     0.1108,
+     0.0953,
+     0.0866,
+     0.0649
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "on-device-ai",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.43,
+    "excess": 0.0645,
+    "raw": 0.1065,
+    "path": [
+     -0.0035,
+     0.137,
+     0.1043,
+     0.0645
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "rl-post-training",
+    "week": "2026-08-10",
+    "live": false,
+    "momentum": 0.46,
+    "excess": -0.0018,
+    "raw": 0.0401,
+    "path": [
+     -0.09,
+     -0.0277,
+     -0.0196,
+     -0.0018
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "image-generation",
+    "week": "2026-07-27",
+    "live": false,
+    "momentum": 0.9,
+    "excess": -0.1169,
+    "raw": -0.113,
+    "path": [
+     0.0971,
+     -0.0227,
+     -0.066,
+     -0.1169
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "ai-video-generation",
+    "week": "2026-07-20",
+    "live": false,
+    "momentum": 0.37,
+    "excess": 0.0434,
+    "raw": 0.084,
+    "path": [
+     0.1072,
+     0.0907,
+     0.05,
+     0.0434
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "local-llm-runtime",
+    "week": "2026-07-13",
+    "live": false,
+    "momentum": 0.88,
+    "excess": 0.0945,
+    "raw": 0.1419,
+    "path": [
+     -0.1099,
+     -0.161,
+     -0.0984,
+     0.0945
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "open-weight-models",
+    "week": "2026-07-13",
+    "live": false,
+    "momentum": 0.88,
+    "excess": 0.3151,
+    "raw": 0.3505,
+    "path": [
+     0.0438,
+     0.1986,
+     0.2009,
+     0.3151
+    ],
+    "sustained": true,
+    "status": "win"
+   },
+   {
+    "id": "mcp",
+    "week": "2026-06-29",
+    "live": false,
+    "momentum": 0.47,
+    "excess": 0.1034,
+    "raw": 0.0834,
+    "path": [
+     0.0796,
+     0.0948,
+     0.1065,
+     0.1034
+    ],
+    "sustained": true,
+    "status": "win"
+   },
+   {
+    "id": "js-runtimes-toolchain",
+    "week": "2026-06-22",
+    "live": false,
+    "momentum": 0.44,
+    "excess": -0.0003,
+    "raw": -0.0447,
+    "path": [
+     -0.2817,
+     -0.0584,
+     0.0083,
+     -0.0003
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "image-generation",
+    "week": "2026-06-15",
+    "live": false,
+    "momentum": 1.23,
+    "excess": 0.1142,
+    "raw": 0.0834,
+    "path": [
+     0.3513,
+     0.3053,
+     0.2557,
+     0.1142
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "ai-security",
+    "week": "2026-06-08",
+    "live": false,
+    "momentum": 0.63,
+    "excess": -0.0663,
+    "raw": -0.1163,
+    "path": [
+     -0.1246,
+     -0.0575,
+     -0.0528,
+     -0.0663
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "durable-execution",
+    "week": "2026-05-25",
+    "live": false,
+    "momentum": 0.56,
+    "excess": 0.0318,
+    "raw": 0.0015,
+    "path": [
+     0.1337,
+     0.0682,
+     0.0374,
+     0.0318
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "world-models",
+    "week": "2026-05-18",
+    "live": false,
+    "momentum": 0.63,
+    "excess": 0.3882,
+    "raw": 0.3511,
+    "path": [
+     0.3443,
+     0.4029,
+     0.3889,
+     0.3882
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "ai-coding-agents",
+    "week": "2026-05-11",
+    "live": false,
+    "momentum": 0.33,
+    "excess": 0.0104,
+    "raw": 0.0238,
+    "path": [
+     -0.0447,
+     -0.033,
+     -0.0577,
+     0.0104
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "ai-video-generation",
+    "week": "2026-05-11",
+    "live": false,
+    "momentum": 0.6,
+    "excess": -0.0827,
+    "raw": -0.0628,
+    "path": [
+     0.1283,
+     0.1241,
+     0.0505,
+     -0.0827
+    ],
+    "sustained": false,
+    "status": "false_alarm"
+   },
+   {
+    "id": "diffusion-language-models",
+    "week": "2026-05-11",
+    "live": false,
+    "momentum": 0.65,
+    "excess": 0.0526,
+    "raw": 0.1002,
+    "path": [
+     0.0714,
+     0.0647,
+     0.072,
+     0.0526
+    ],
+    "sustained": false,
+    "status": "win"
+   },
+   {
+    "id": "robotaxi",
+    "week": "2026-05-11",
+    "live": false,
+    "momentum": 0.53,
+    "excess": 0.2119,
+    "raw": 0.2318,
+    "path": [
+     0.2248,
+     0.0555,
+     0.1096,
+     0.2119
+    ],
+    "sustained": true,
+    "status": "win"
+   },
+   {
+    "id": "vla-models",
+    "week": "2026-05-11",
+    "live": false,
+    "momentum": 0.6,
+    "excess": 0.0436,
+    "raw": 0.066,
+    "path": [
+     0.0331,
+     0.0796,
+     0.1017,
+     0.0436
+    ],
+    "sustained": true,
+    "status": "win"
+   }
+  ],
+  "coverage": [
+   {
+    "group": "code",
+    "name_ko": "코드(GitHub)",
+    "share": 0.25
+   },
+   {
+    "group": "models",
+    "name_ko": "모델(HF)",
+    "share": 1.0
+   },
+   {
+    "group": "research",
+    "name_ko": "논문",
+    "share": 0.684
+   },
+   {
+    "group": "community",
+    "name_ko": "개발자 커뮤니티",
+    "share": 1.0
+   },
+   {
+    "group": "search",
+    "name_ko": "대중 검색",
+    "share": 0.804
+   },
+   {
+    "group": "media",
+    "name_ko": "미디어·영상",
+    "share": 1.0
+   },
+   {
+    "group": "adoption",
+    "name_ko": "채용·채택",
+    "share": 0.661
+   }
+  ],
+  "window": {
+   "first_week": "2026-05-04",
+   "last_week": "2026-11-16",
+   "weeks": 29,
+   "weeks_with_outcome": 24
+  },
+  "base": {
+   "win_rate": 0.4973,
+   "n": 1639,
+   "held_rate": 0.3083,
+   "sustained_rate": 0.1729,
+   "market_return": -0.1078
+  },
+  "note": "결과가 나온 실시간 발행 알림이 아직 없어 수치는 모두 백필 재계산분(in-sample)입니다"
+ }
+}

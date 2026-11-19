@@ -1,0 +1,133 @@
+[
+ {
+  "tech_id": "mcp",
+  "status": "learning",
+  "progress": 0.0,
+  "started_at": "2026-09-28",
+  "notion_url": null,
+  "roadmap": {
+   "generated_by": "template",
+   "generated_at": "2026-09-28T06:49:11+00:00",
+   "goal_ko": "MCP (Model Context Protocol)의 개념을 이해하고 Python/FastAPI로 작은 결과물을 만들어 실무 적용 가능성을 판단한다.",
+   "stages": [
+    {
+     "key": "concept",
+     "title_ko": "개념 잡기",
+     "tasks": [
+      {
+       "id": "mcp-1",
+       "title_ko": "MCP (Model Context Protocol) 핵심 개념 정리: LLM 앱이 외부 도구·데이터에 연결하는 표준 프로토콜로, Linux Foundation(AAIF)에 이관됐습니다",
+       "done": false,
+       "resources": [
+        {
+         "title": "MCP (Model Context Protocol) 공식 사이트/문서",
+         "url": "https://modelcontextprotocol.io",
+         "kind": "doc",
+         "lang": "en"
+        },
+        {
+         "title": "나무위키: MCP",
+         "url": "https://namu.wiki/w/MCP",
+         "kind": "article",
+         "lang": "ko"
+        },
+        {
+         "title": "Wikipedia: Model Context Protocol",
+         "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+         "kind": "article",
+         "lang": "en"
+        }
+       ]
+      },
+      {
+       "id": "mcp-2",
+       "title_ko": "입문 영상 1~2편 보고 핵심 용어 5개 메모하기",
+       "done": false,
+       "resources": [
+        {
+         "title": "조코딩 JoCoding (MCP 강의)",
+         "url": "https://www.youtube.com/@jocoding",
+         "kind": "video",
+         "lang": "ko"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "hands_on",
+     "title_ko": "직접 해보기",
+     "tasks": [
+      {
+       "id": "mcp-3",
+       "title_ko": "공식 튜토리얼·퀵스타트 따라 하기",
+       "done": false,
+       "resources": [
+        {
+         "title": "Hugging Face MCP Course",
+         "url": "https://huggingface.co/learn/mcp-course",
+         "kind": "course",
+         "lang": "en"
+        },
+        {
+         "title": "MCP Python SDK",
+         "url": "https://github.com/modelcontextprotocol/python-sdk",
+         "kind": "repo",
+         "lang": "en"
+        }
+       ]
+      },
+      {
+       "id": "mcp-4",
+       "title_ko": "최소 예제를 Python/FastAPI로 다시 구현해 보기",
+       "done": false,
+       "resources": []
+      },
+      {
+       "id": "mcp-5",
+       "title_ko": "막힌 점과 설정 방법을 README로 정리하기",
+       "done": false,
+       "resources": []
+      }
+     ]
+    },
+    {
+     "key": "project",
+     "title_ko": "미니 프로젝트",
+     "tasks": [
+      {
+       "id": "mcp-6",
+       "title_ko": "미니 프로젝트: Python/FastAPI로 MCP (Model Context Protocol)을(를) 붙인 사내용 업무 자동화 에이전트 API 만들기(도구 2~3개 연결)",
+       "done": false,
+       "resources": []
+      },
+      {
+       "id": "mcp-7",
+       "title_ko": "GitHub에 공개하고 배운 점을 블로그/노션에 3문단으로 정리하기",
+       "done": false,
+       "resources": []
+      }
+     ]
+    },
+    {
+     "key": "deep",
+     "title_ko": "심화",
+     "tasks": [
+      {
+       "id": "mcp-8",
+       "title_ko": "심화 자료(논문·설계 문서) 읽고 한계와 대안 정리하기",
+       "done": false,
+       "resources": []
+      },
+      {
+       "id": "mcp-9",
+       "title_ko": "관련 기술(agentic-ai, a2a-protocol, ag-ui)과 비교해 언제 무엇을 쓸지 정리하기",
+       "done": false,
+       "resources": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

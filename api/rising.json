@@ -1,0 +1,185 @@
+{
+ "week": "2026-11-16",
+ "rising": [
+  {
+   "id": "ag-ui",
+   "momentum": 0.887,
+   "acceleration": 0.868,
+   "lead_source": "code",
+   "alert": true
+  },
+  {
+   "id": "ai-coding-agents",
+   "momentum": 0.777,
+   "acceleration": -0.232,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "frontier-llm-api",
+   "momentum": 0.587,
+   "acceleration": -0.864,
+   "lead_source": "community",
+   "alert": false
+  },
+  {
+   "id": "multi-agent-frameworks",
+   "momentum": 0.531,
+   "acceleration": 0.235,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "jepa-world-models",
+   "momentum": 0.525,
+   "acceleration": 0.218,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "ai-video-generation",
+   "momentum": 0.492,
+   "acceleration": -0.077,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "agentic-ai",
+   "momentum": 0.465,
+   "acceleration": -0.907,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "vibe-coding",
+   "momentum": 0.434,
+   "acceleration": 0.067,
+   "lead_source": "community",
+   "alert": true
+  },
+  {
+   "id": "open-weight-models",
+   "momentum": 0.419,
+   "acceleration": -0.823,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "low-bit-quantization",
+   "momentum": 0.414,
+   "acceleration": -0.117,
+   "lead_source": "models",
+   "alert": false
+  },
+  {
+   "id": "mcp",
+   "momentum": 0.403,
+   "acceleration": -0.687,
+   "lead_source": "code",
+   "alert": false
+  },
+  {
+   "id": "on-device-ai",
+   "momentum": 0.391,
+   "acceleration": -0.065,
+   "lead_source": "search",
+   "alert": false
+  },
+  {
+   "id": "harness-engineering",
+   "momentum": 0.39,
+   "acceleration": -0.073,
+   "lead_source": "research",
+   "alert": false
+  },
+  {
+   "id": "computer-use-agents",
+   "momentum": 0.378,
+   "acceleration": 0.03,
+   "lead_source": "research",
+   "alert": true
+  },
+  {
+   "id": "custom-ai-asic",
+   "momentum": 0.355,
+   "acceleration": -0.021,
+   "lead_source": null,
+   "alert": false
+  }
+ ],
+ "cooling": [
+  {
+   "id": "coding-agent-swarms",
+   "momentum": -0.513
+  },
+  {
+   "id": "post-quantum-crypto",
+   "momentum": -0.246
+  },
+  {
+   "id": "python-uv-tooling",
+   "momentum": -0.225
+  },
+  {
+   "id": "diffusion-language-models",
+   "momentum": -0.187
+  },
+  {
+   "id": "spec-driven-development",
+   "momentum": -0.186
+  },
+  {
+   "id": "ai-scientist",
+   "momentum": -0.182
+  },
+  {
+   "id": "consumer-ai-assistants",
+   "momentum": -0.161
+  },
+  {
+   "id": "quantum-software",
+   "momentum": -0.141
+  },
+  {
+   "id": "gaussian-splatting",
+   "momentum": -0.126
+  },
+  {
+   "id": "durable-execution",
+   "momentum": -0.108
+  },
+  {
+   "id": "js-runtimes-toolchain",
+   "momentum": -0.08
+  },
+  {
+   "id": "quantum-computing",
+   "momentum": -0.062
+  },
+  {
+   "id": "llm-observability-eval",
+   "momentum": -0.061
+  },
+  {
+   "id": "kubernetes-platform-engineering",
+   "momentum": -0.055
+  },
+  {
+   "id": "opentelemetry",
+   "momentum": -0.049
+  }
+ ],
+ "movers": [
+  {
+   "id": "frontier-llm-api",
+   "from": "trial",
+   "to": "adopt"
+  },
+  {
+   "id": "consumer-ai-assistants",
+   "from": "trial",
+   "to": "adopt"
+  }
+ ],
+ "candidates": []
+}
